@@ -4,9 +4,9 @@
         "post0": {
             "title": "Basic Statistics",
             "content": "The network data contains 224 characters, which is found by scraping the gameofthrones.fandom.com webpage. . First we investigate the distribution of the religion across the found characters. . . . . . . . . . . . Character dialogoues . Next we dive into the character dialogoues which are extracted from transcripts, this dataset contains dialogoues from all characters in the season, and this is based on another dataset than in the previous part of this page. Therefore we restrict the data to only contain data for the characters that are present in the network used for analysis in Text Analysis [ref]. . Originally the data contains 817 characters and the original dataset can be found here transcripts [ref]. . We are going to investigate how many episodes and series does each character appear in and also what is the average token length ie. how much dialogoue are present for each character. . Reviews and ratings . Lastly we will dive into the data from IMDB, where ratings and reviews are extracted. Here we will investigate how the rating distribution are in general, but also how it is distributed when taking the average rating pr. episode but also pr. season. . Ratings pr season . . . ratings pr episode . . . ratings in general . . . what are the average review length . . . . . SKAL VI EVT TILF&#216;JE NOGET OM DEMOGRAPHICS??? . &lt;/img&gt; Created in Deepnote .",
-            "url": "https://mikkelmathiasen23.github.io/GameOfThrones_Network/2021/11/13/03_Basic_Statistics.html",
-            "relUrl": "/2021/11/13/03_Basic_Statistics.html",
-            "date": " • Nov 13, 2021"
+            "url": "https://mikkelmathiasen23.github.io/GameOfThrones_Network/2021/11/12/_Basic_Statistics-(1).html",
+            "relUrl": "/2021/11/12/_Basic_Statistics-(1).html",
+            "date": " • Nov 12, 2021"
         }
         
     
