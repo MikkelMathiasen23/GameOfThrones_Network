@@ -29,10 +29,12 @@ jobs:
       with:
         persist-credentials: false
 
-    - name: convert notebooks and word docs to posts
+    - name: Reconfigure git to use HTTP authentication
       run: >
           git config --global url."https://github.com/".insteadOf
           ssh://git@github.com/
+          
+    - name: convert notebooks and word docs to posts
       uses: ./_action_files
       with:
        BOOL_SAVE_MARKDOWN: true
