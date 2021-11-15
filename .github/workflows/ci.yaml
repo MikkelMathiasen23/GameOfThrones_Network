@@ -27,7 +27,7 @@ jobs:
     - name: Copy Repository Contents
       uses: actions/checkout@main
       with:
-        persist-credentials: false
+        persist-credentials: true
           
     - name: convert notebooks and word docs to posts
       uses: ./_action_files
