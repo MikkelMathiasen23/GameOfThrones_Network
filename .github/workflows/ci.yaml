@@ -1,4 +1,5 @@
 name: CI
+permissions: write
 on:
   push:
     branches:
@@ -33,7 +34,7 @@ jobs:
       uses: ./_action_files
       with:
        BOOL_SAVE_MARKDOWN: true
-       SSH_DEPLOY_KEY: deploy_key 
+       SSH_DEPLOY_KEY:  ${{ secrets.SSH_DEPLOY_KEY }} 
       
       
     - name: setup directories for Jekyll build
