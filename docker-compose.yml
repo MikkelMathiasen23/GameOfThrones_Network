@@ -3,7 +3,7 @@ services:
   fastpages: &fastpages
     working_dir: /data
     environment:
-        - INPUT_BOOL_SAVE_MARKDOWN=false
+        - INPUT_BOOL_SAVE_MARKDOWN=true
     build:
       context: ./_action_files
       dockerfile: ./Dockerfile
