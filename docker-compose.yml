@@ -4,6 +4,7 @@ services:
     working_dir: /data
     environment:
         - INPUT_BOOL_SAVE_MARKDOWN=true
+        - INPUT_SSH_DEPLOY_KEY=true
     build:
       context: ./_action_files
       dockerfile: ./Dockerfile
