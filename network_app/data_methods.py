@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 
+
 def graph_preprocessing(network, attribute):
     """
     network:    unpickled network graph
@@ -30,34 +31,19 @@ def graph_preprocessing(network, attribute):
     min_node_size = np.min(node_sizes)  
     degree_dict_plotly = dict(zip(list(network.nodes()),[(50-10)/(max_node_size-min_node_size)*(node_size-max_node_size)+50 for node_size in node_sizes]))
 
+    #edge_sizes = list(nx.get_edge_attributes(network, 'weight'))
+    edge_sizes = [network.edges()[edge]['weight'] for edge in network.edges()]
+    max_edge_size = np.max(edge_sizes)
+    min_edge_size = np.min(edge_sizes)    
+    edge_width_dict_plotly = dict(zip(list(network.edges()),[(15-2)/(max_edge_size-min_edge_size)*(edge_size-max_edge_size)+15 for edge_size in edge_sizes]))
+
     node_dict = network.nodes(data=True)
     attribute_edge_colors = []
 
     for edge in network.edges():
         attribute_edge_colors.append(attribute_to_number[node_dict[edge[0]][attribute]])
 
-    forceatlas2 = ForceAtlas2(
-                        # Behavior alternatives
-                        outboundAttractionDistribution=True,  # Dissuade hubs
-                        edgeWeightInfluence=1,
-
-                        # Performance
-                        jitterTolerance=0.2,  # Tolerance
-                        barnesHutOptimize=True,
-                        barnesHutTheta=0.5,
-                        multiThreaded=False,  # NOT IMPLEMENTED
-
-                        # Tuning
-                        scalingRatio=10.0,
-                        strongGravityMode=False,
-                        gravity=0.01,
-
-                        # Log
-                        verbose=True)
-
-    positions = forceatlas2.forceatlas2_networkx_layout(G= network, pos=None, iterations=2000)
-
-    return attribute_group, positions, attribute_color_dict, degree_dict_plotly
+    return attribute_group, attribute_color_dict, degree_dict_plotly, edge_width_dict_plotly
 
 def make_edge(x, y, text, width, opacity):
     return  go.Scatter(x         = x,
@@ -70,13 +56,13 @@ def make_edge(x, y, text, width, opacity):
                        showlegend=False,
                        opacity=opacity)
 
-def make_figure(network, attribute):
+def make_figure(network, attribute, positions):
 
-    attribute_group, positions, attribute_color_dict, degree_dict_plotly = graph_preprocessing(network, attribute)
+    attribute_group, attribute_color_dict, degree_dict_plotly, edge_width_dict_plotly = graph_preprocessing(network, attribute)
     node_dict = network.nodes(data=True)
 
     edge_widths = nx.get_edge_attributes(network, 'weight')
-    alphas = (list(edge_widths.values()) - np.min(list(edge_widths.values()))) / (np.max(list(edge_widths.values()))-np.min(list(edge_widths.values())))
+    alphas = (0.8-0.05) / (np.max(list(edge_widths.values()))-np.min(list(edge_widths.values())))*(list(edge_widths.values()) - np.max(list(edge_widths.values())))+0.8
     opacity_dict = dict(zip(list(edge_widths.keys()),alphas))
 
     # Create edge traces
@@ -92,7 +78,7 @@ def make_figure(network, attribute):
             opacity = opacity_dict[edge]
             
             trace  = make_edge([x0, x1, None], [y0, y1, None], text, 
-                            width = network.edges()[edge]['weight'],
+                            width = edge_width_dict_plotly[edge], #network.edges()[edge]['weight']*0.2
                             opacity = opacity)
             
             edge_traces.append(trace)
@@ -111,21 +97,25 @@ def make_figure(network, attribute):
                     hoverinfo = 'text',
                     name = group,
                     hovertext = [],
+                    meta = [],
+                    customdata = [],
                     marker = dict(color = [],
                                         size  = [],
                                         line  = None))
         
         for node, attributes in network.nodes(data=True):
             if attributes[attribute] == group:
+
                 x, y = positions[node]
                 node_trace['x'] += tuple([x])
                 node_trace['y'] += tuple([y])  
                 color_key = node_dict[node][attribute]
                 node_trace['marker']['color'] += tuple([attribute_color_dict[color_key]])
                 node_trace['marker']['size'] += tuple([degree_dict_plotly[node]])
-                node_trace['text'] += tuple(['<b>' + node.replace('_',' ') + '</b>'])
-                node_trace['hovertext'] += tuple(['<b>' + node.replace('_',' ') + '</b>'])
-        print(node_trace['marker']['size'])
+                node_trace['hovertext'] +=tuple([node.replace('_',' ')]) #tuple([attributes['text']])
+                node_trace['text'] += tuple([node.replace('_',' ')])
+                node_trace['customdata'] += tuple([attributes['text']])
+                node_trace['meta'] += tuple([attributes['thumbnail']])
         node_traces.append(node_trace)   
 
     return edge_traces, node_traces
