@@ -40,6 +40,17 @@
   
 
   
+      ,"page2": {
+          "title": "Game Of Thrones Network",
+          "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
+          "url": "https://mikkelmathiasen23.github.io/GameOfThrones_Network/GameOfThronesNetwork/",
+          "relUrl": "/GameOfThronesNetwork/",
+          "date": ""
+      }
+      
+  
+
+  
 
   
 
@@ -63,7 +74,7 @@
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://mikkelmathiasen23.github.io/GameOfThrones_Network/robots.txt",
