@@ -63,6 +63,17 @@
 
   
       ,"page3": {
+          "title": "Text Analysis",
+          "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
+          "url": "https://mikkelmathiasen23.github.io/GameOfThrones_Network/textanalysis/",
+          "relUrl": "/textanalysis/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page4": {
           "title": "Community Analysis",
           "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://mikkelmathiasen23.github.io/GameOfThrones_Network/CommunityAnalysis/",
@@ -73,7 +84,7 @@
   
 
   
-      ,"page4": {
+      ,"page5": {
           "title": "TODO",
           "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://mikkelmathiasen23.github.io/GameOfThrones_Network/TODO/",
@@ -107,7 +118,7 @@
   
 
   
-      ,"page14": {
+      ,"page15": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://mikkelmathiasen23.github.io/GameOfThrones_Network/robots.txt",
