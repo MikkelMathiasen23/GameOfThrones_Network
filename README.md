@@ -34,7 +34,7 @@ Forside :
 - Degree distribution
 - Compare with ER
 - Most connected characters 
-- Netværk app 
+- Netværk app  (kan nok bruge gunicorn : https://dataviz.shef.ac.uk/blog/03/07/2020/Deploy-Your-Dash-App) 
 - Most connected character pr. season
 - Heatmaps for categories (religion, culture, ...)
 - Assortativity + centrality
