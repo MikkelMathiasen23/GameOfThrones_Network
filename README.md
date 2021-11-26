@@ -1,3 +1,65 @@
+Forside : 
+
+
+- Forklar hvad vi vil undersøge og hvorfor 
+- Hurtig forklaring til GOT 
+- Kort introduktion til hvad vi kommer ind 
+- Forklaring af hjemmesidens opbygning 
+
+
+01 - Data: 
+- Hvor og hvor meget osv. 
+- Hvordan regex 
+- hvad skal det bruges til kort 
+(Wiki, dialog, IMDB)
+
+
+02 - Basic statistics: 
+- Wiki data: 
+	- Hvor mange i hver kategory (culture, religion, ...)
+
+- Dialog: 
+	- Gennemsnitlig dialog længde pr. character, pr. sæson, pr. episode
+
+-IMDB:
+	- Rating pr. sæson
+	- Rating pr. episode 
+	- Gender + age number votes
+	- gender + age average rating 
+
+03 - Network analysis:
+- Hvordan laves netværket
+
+- Basic : number of edges + nodes
+- Degree distribution
+- Compare with ER
+- Most connected characters 
+- Netværk app 
+- Most connected character pr. season
+- Heatmaps for categories (religion, culture, ...)
+- Assortativity + centrality
+- Subconclusion
+
+04 - Text analysis: 
+- TF-IDF + Wordclouds: 
+	- Character dialog
+	- Character wiki-pages
+	- Allegiance, season
+- Dispersion plot af udvalgte ord 
+- Sentiment: 
+	- Character pages (wiki + evt(dialog))
+	- Character pr. episode (dialogen)
+- Subconclusion
+
+05 - Community 
+- Community extraction
+- TF-IDF + Wordcloud af community (Wikipages)
+- Sentiment community  (Wikipages)
+
+06 - 
+
+
+
 [//]: # (This template replaces README.md when someone creates a new repo with the fastpages template.)
 
 ![](https://github.com/MikkelMathiasen23/GameOfThrones_Network/workflows/CI/badge.svg) 
