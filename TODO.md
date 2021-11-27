@@ -19,3 +19,6 @@ Place  = Haystack
 Fix rating pr. episode to include E1 in each season. 
 
 Sort barplot of character dialogoue length
+
+
+Hvad er vores "formål" med at lave community analysis?
