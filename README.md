@@ -21,7 +21,7 @@ Forside :
 - Dialog: 
 	- Gennemsnitlig dialog længde pr. character, pr. sæson, pr. episode
 
--IMDB:
+- IMDB:
 	- Rating pr. sæson
 	- Rating pr. episode 
 	- Gender + age number votes
@@ -29,7 +29,6 @@ Forside :
 
 03 - Network analysis:
 - Hvordan laves netværket
-
 - Basic : number of edges + nodes
 - Degree distribution
 - Compare with ER
@@ -41,6 +40,7 @@ Forside :
 - Subconclusion
 
 04 - Text analysis: 
+- How is TF-IDF computed
 - TF-IDF + Wordclouds: 
 	- Character dialog
 	- Character wiki-pages
