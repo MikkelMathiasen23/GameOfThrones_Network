@@ -217,30 +217,6 @@ def display_click_data(clickData):
     return json.dumps(clickData, indent=2),thumbnail
 
 
-# @app.callback(
-#     Output('selected-data', 'children'),
-#     [Input('computed_figure', 'clickData'),
-#     Input('computed_figure', 'selectedData')]
-#     )
-# def display_selected_data(clickData,selectedData):
-#     print(clickData)
-
-#     if clickData is not None:
-#         print(clickData)
-#         path = clickData['points'][0]['meta']
-#         img = io.imread(path)
-#         thumbnail = px.imshow(img)
-#         return thumbnail
-#     else:
-#         return json.dumps(selectedData, indent = 2)
-
-   
-   
-     
-
-
-
-
-
 if __name__ == '__main__':
+    server = app.server
     app.run_server(debug=True)
