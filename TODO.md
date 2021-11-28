@@ -6,6 +6,9 @@ Regex for religion, allegiance, culture extraction: See Cersei as an example (wr
 
 Insert correct links in 02_data and 03_basic_statistics.ipynb
 
+# For Heroku
+https://towardsdatascience.com/deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c
+
 
 # Basic statistics: 
 
