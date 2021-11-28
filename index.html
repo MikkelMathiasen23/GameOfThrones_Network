@@ -84,13 +84,18 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Table-of-contents-of-the-website">Table of contents of the website<a class="anchor-link" href="#Table-of-contents-of-the-website"> </a></h1><ul>
+<p><h1 align="center">Table of contents of the website</h1>
+The website contains 6 sections. The first section <em>The Data</em> describes the data, where it is found, and briefly what it is used for. The next section performs an initial exploratory analysis of the data. The third section performs an analysis of the Game Of Thrones networks describing how the characters interact. The next part performs text analysis of the character dialogoues but also the text from the character wiki-pages. The fifth section detects communities in the network, and perform analysis on these. 
+The last section ...</p>
+<p>Lastly, the analysis performed throughout the website can be found in the explainer notebook if one want's to dig into all the details. If one want's to replicate the analysis the data can be downloaded in the data section.</p>
+<ul>
 <li><a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/data/">The Data</a></li>
 <li><a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/02_Basic_Statistics.html/">Basic Statistics of the Data</a></li>
 <li><a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/GameOfThronesNetwork/">The Game of Thrones Network</a></li>
 <li><a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/textanalysis/">Text Analysis</a></li>
 <li><a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/CommunityAnalysis/">Community Detection</a></li>
 <li><strong>TODO</strong></li>
+<li><a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/Explainer_Notebook/">Explainer Notebook</a></li>
 </ul>
 
 </div>
@@ -98,7 +103,7 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Aim-of-project">Aim of project<a class="anchor-link" href="#Aim-of-project"> </a></h1><p>The Game of Thrones series recieved world-wide rekognition and <a href="https://www.imdb.com/list/ls095964455/">is the most watched series to date</a>. It takes place in a mediaval fantasy universe and introduces many characters with complicated relations. The goals of this project is to try and answer, who was actually the main character throughout the seasons and if it possible to find a pattern in all these character relations. We will also investigate the overall themes of the series and if these changes over the course of the show.</p>
+<h1 align="center">Aim of project</h1><p>The Game of Thrones series recieved world-wide rekognition and <a href="https://www.imdb.com/list/ls095964455/">is the most watched series to date</a>. It takes place in a mediaval fantasy universe and introduces many characters with complicated relations. The goals of this project is to try and answer, who was actually the main character throughout the seasons and if it possible to find a pattern in all these character relations. We will also investigate the overall themes of the series and if these changes over the course of the show.</p>
 <p><strong>TO DO</strong> IMDB</p>
 <p><strong>To sum it up, this project will try to answer the following:</strong></p>
 <ul>
@@ -112,7 +117,15 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 align="center">The Game of Thrones Universe</h1><p>The Game of Thrones is based on the book series A Song of Ice and Fire written by George R. R. Martin and takes place in the mediaval fantasy world of Westeros and Essos. During the show, the viewer follow multiple story arcs: A succesion war amongst the houses of Westeros as the king, Robert Baratheon, dies and doubbt of the legitimacy of his childrens claim to the throne arises. Another arc takes place in the northern most part of Westeros, where the Night Watch have guarded the Wall keeping the Seven Kingdoms safe for centuries. And a third arc, where the viewers follow an exiled princess who wishes to reconquer The Seven Kingdoms and reclaim her birth right, the Iron Throne.</p>
+<p>The following video is a short presentation of the aim of the project:</p>
+<p><a href="https://drive.google.com/file/d/1XAXjN9zGMwV0NXuqa893qOGJ4cTLrclo/view" title="Link to video"><img src="https://github.com/MikkelMathiasen23/GameOfThrones_Network/blob/master/images/img_video.PNG" alt="Video link" /></a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 align="center">The Game of Thrones Universe</h1><p>The Game of Thrones is based on the book series A Song of Ice and Fire written by George R. R. Martin and takes place in the mediaval fantasy world of Westeros and Essos. During the show, the viewer follow multiple story arcs: A succesion war amongst the houses of Westeros as the king, Robert Baratheon, dies and doubt of the legitimacy of his childrens claim to the throne arises. Another arc takes place in the northern most part of Westeros, where the Night Watch have guarded the Wall keeping the Seven Kingdoms safe for centuries. And a third arc, where the viewers follow an exiled princess who wishes to reconquer The Seven Kingdoms and reclaim her birth right, the Iron Throne.</p>
 <p align="center">
 <img src="https://media.gq-magazine.co.uk/photos/5d13ab5271e2a05e5eae6e04/master/w_1280,c_limit/map-westeros-gq-10apr19_elliot_bryne_b.jpg" width="400" style="max-width: 400px" />
 </p>
@@ -121,22 +134,7 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 align="center"> The Website </h1><p>This website is built using the blogging template <em>fastpages</em> built by <em>fastai</em>. It uses GitHub actions to create Jekyll blog posts on GitHub Pages by converting jupyter notebooks to html. [<a href="https://github.com/fastai/fastpages">fastpages</a>]</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><a style="text-decoration:none;line-height:16px;display:flex;color:#5B5B62;padding:10px;justify-content:end;" href="https://deepnote.com?utm_source=created-in-deepnote-cell&amp;projectId=0aadd790-0254-407e-bf1a-a0259cad43c9" target="_blank">
-<figure>
-  
-    <img class="docimage" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iODBweCIgaGVpZ2h0PSI4MHB4IiB2aWV3Qm94PSIwIDAgODAgODAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU0LjEgKDc2NDkwKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cCAzPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IkxhbmRpbmciIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBcnRib2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyMzUuMDAwMDAwLCAtNzkuMDAwMDAwKSI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjM1LjAwMDAwMCwgNzkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iUGF0aC0yMCIgZmlsbD0iIzAyNjVCNCIgcG9pbnRzPSIyLjM3NjIzNzYyIDgwIDM4LjA0NzY2NjcgODAgNTcuODIxNzgyMiA3My44MDU3NTkyIDU3LjgyMTc4MjIgMzIuNzU5MjczOSAzOS4xNDAyMjc4IDMxLjY4MzE2ODMiPjwvcG9seWdvbj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zNS4wMDc3MTgsODAgQzQyLjkwNjIwMDcsNzYuNDU0OTM1OCA0Ny41NjQ5MTY3LDcxLjU0MjI2NzEgNDguOTgzODY2LDY1LjI2MTk5MzkgQzUxLjExMjI4OTksNTUuODQxNTg0MiA0MS42NzcxNzk1LDQ5LjIxMjIyODQgMjUuNjIzOTg0Niw0OS4yMTIyMjg0IEMyNS40ODQ5Mjg5LDQ5LjEyNjg0NDggMjkuODI2MTI5Niw0My4yODM4MjQ4IDM4LjY0NzU4NjksMzEuNjgzMTY4MyBMNzIuODcxMjg3MSwzMi41NTQ0MjUgTDY1LjI4MDk3Myw2Ny42NzYzNDIxIEw1MS4xMTIyODk5LDc3LjM3NjE0NCBMMzUuMDA3NzE4LDgwIFoiIGlkPSJQYXRoLTIyIiBmaWxsPSIjMDAyODY4Ij48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMCwzNy43MzA0NDA1IEwyNy4xMTQ1MzcsMC4yNTcxMTE0MzYgQzYyLjM3MTUxMjMsLTEuOTkwNzE3MDEgODAsMTAuNTAwMzkyNyA4MCwzNy43MzA0NDA1IEM4MCw2NC45NjA0ODgyIDY0Ljc3NjUwMzgsNzkuMDUwMzQxNCAzNC4zMjk1MTEzLDgwIEM0Ny4wNTUzNDg5LDc3LjU2NzA4MDggNTMuNDE4MjY3Nyw3MC4zMTM2MTAzIDUzLjQxODI2NzcsNTguMjM5NTg4NSBDNTMuNDE4MjY3Nyw0MC4xMjg1NTU3IDM2LjMwMzk1NDQsMzcuNzMwNDQwNSAyNS4yMjc0MTcsMzcuNzMwNDQwNSBDMTcuODQzMDU4NiwzNy43MzA0NDA1IDkuNDMzOTE5NjYsMzcuNzMwNDQwNSAwLDM3LjczMDQ0MDUgWiIgaWQ9IlBhdGgtMTkiIGZpbGw9IiMzNzkzRUYiPjwvcGF0aD4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+" alt="Created in deepnote.com" />
-    
-    
-</figure>
- &lt;/img&gt;
-Created in <span style="font-weight:600;margin-left:4px;">Deepnote</span></a></p>
+<h1 align="center"> The Website </h1><p>This website is built using the blogging template <em>fastpages</em> built by <em>fastai</em>. It uses GitHub actions to create Jekyll blog posts on GitHub Pages by converting jupyter notebooks to html. <a href="https://github.com/fastai/fastpages">fastpages</a></p>
 
 </div>
 </div>
