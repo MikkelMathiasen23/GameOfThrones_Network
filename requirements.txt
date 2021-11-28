@@ -3,4 +3,6 @@ dash
 networkx
 ForceAtlas2
 scikit-image
+gunicorn
+whitenoise
 
