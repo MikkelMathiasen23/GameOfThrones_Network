@@ -8,19 +8,11 @@ Insert correct links in 02_data and 03_basic_statistics.ipynb
 
 
 # Basic statistics: 
-Allegiance = '' ---> Allegiance = No Known Allegiance
-
-
-Culture = '' ---> Culture =  No Known Culture 
-
 
 Place  = Haystack
 
 Allegiance: Både "King of the Andals and the first men" og "King of the andals, the Rhoynar, and the first men.".
 
-Fix rating pr. episode to include E1 in each season. 
-
-Sort barplot of character dialogoue length
 
 Hvad er vores "formål" med at lave community analysis?
 
