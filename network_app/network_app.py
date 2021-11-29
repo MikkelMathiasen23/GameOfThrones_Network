@@ -31,7 +31,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 styles = {
     'pre': {
         'border': 'thin lightgrey solid',
-        'overflowX': 'scroll'
+        'overflowY': 'scroll'
     }
 }
 
