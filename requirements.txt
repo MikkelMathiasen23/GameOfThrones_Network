@@ -1,7 +1,7 @@
 pandas
 dash
 networkx
-ForceAtlas2
+fa2
 scikit-image
 gunicorn
 whitenoise
