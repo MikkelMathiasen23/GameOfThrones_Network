@@ -16,6 +16,7 @@ from skimage import io
 import random
 import os
 import gunicorn
+from whitenoise import WhiteNoise
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
