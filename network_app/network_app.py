@@ -15,6 +15,7 @@ from fa2 import ForceAtlas2
 from skimage import io
 import random
 import os
+import gunicorn
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
