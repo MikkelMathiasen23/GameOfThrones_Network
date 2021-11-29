@@ -10,6 +10,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 from data_methods import make_figure
+from data_methods import create_thumbnail
 from fa2 import ForceAtlas2
 
 from skimage import io
@@ -17,6 +18,10 @@ import random
 import os
 import gunicorn
 from whitenoise import WhiteNoise
+
+from PIL import Image
+import requests
+from io import BytesIO
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 config_thumbnail = {'staticPlot': True}
@@ -203,16 +208,16 @@ def display_figure(season_dropdown_menu,attribute_dropdown_menu):
 def display_click_data(clickData):
     if clickData is not None:
         path = clickData['points'][0]['meta']
-        img = io.imread(path)
-        thumbnail = px.imshow(img)
-        thumbnail = thumbnail.show(config=config_thumbnail)
+        response = requests.get(path)
+        img = Image.open(BytesIO(response.content))
+        thumbnail = create_thumbnail(img)
 
         return clickData['points'][0]['customdata'],thumbnail
 
     path = "https://static.wikia.nocookie.net/gameofthrones/images/c/c8/Iron_throne.jpg/revision/latest/scale-to-width-down/334?cb=20131005175755"
-    img = io.imread(path)
-    thumbnail = px.imshow(img)
-    thumbnail = thumbnail.show(config=config_thumbnail)
+    response = requests.get(path)
+    img = Image.open(BytesIO(response.content))
+    thumbnail = create_thumbnail(img)
     return json.dumps(clickData, indent=2),thumbnail
 
 
