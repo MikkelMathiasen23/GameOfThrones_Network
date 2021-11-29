@@ -5,4 +5,4 @@ fa2
 scikit-image
 gunicorn
 whitenoise
-
+pillow
