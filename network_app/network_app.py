@@ -205,14 +205,15 @@ def display_click_data(clickData):
         path = clickData['points'][0]['meta']
         img = io.imread(path)
         thumbnail = px.imshow(img)
+        thumbnail = thumbnail.show(config=config_thumbnail)
 
-        return clickData['points'][0]['customdata'],thumbnail.show(config=config_thumbnail)
+        return clickData['points'][0]['customdata'],thumbnail
 
     path = "https://static.wikia.nocookie.net/gameofthrones/images/c/c8/Iron_throne.jpg/revision/latest/scale-to-width-down/334?cb=20131005175755"
     img = io.imread(path)
     thumbnail = px.imshow(img)
-    config_thumbnail
-    return json.dumps(clickData, indent=2),thumbnail.show(config=config_thumbnail)
+    thumbnail = thumbnail.show(config=config_thumbnail)
+    return json.dumps(clickData, indent=2),thumbnail
 
 
 server = app.server
