@@ -19,6 +19,7 @@ import gunicorn
 from whitenoise import WhiteNoise
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+config_thumbnail = {'staticPlot': True}
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
@@ -147,19 +148,11 @@ app.layout = html.Div([
 
         html.Div([
             dcc.Markdown("""
-                **Selection Data**
-
-                Choose the lasso or rectangle tool in the graph's menu
-                bar and then select points in the graph.
-
-                Note that if `layout.clickmode = 'event+select'`, selection data also
-                accumulates (or un-accumulates) selected data if you hold down the shift
-                button while clicking.
+                **Character Image**
             """),
             dcc.Graph(
                 id='selected-data',
-                figure=thumbnail,
-                style={'height':'70vh'}
+                figure=thumbnail                
             ),
             #html.Pre(id='selected-data', style=styles['pre']),
         ], className='three columns'),
@@ -213,12 +206,13 @@ def display_click_data(clickData):
         img = io.imread(path)
         thumbnail = px.imshow(img)
 
-        return clickData['points'][0]['customdata'],thumbnail
+        return clickData['points'][0]['customdata'],thumbnail.show(config=config_thumbnail)
 
     path = "https://static.wikia.nocookie.net/gameofthrones/images/c/c8/Iron_throne.jpg/revision/latest/scale-to-width-down/334?cb=20131005175755"
     img = io.imread(path)
     thumbnail = px.imshow(img)
-    return json.dumps(clickData, indent=2),thumbnail
+    config_thumbnail
+    return json.dumps(clickData, indent=2),thumbnail.show(config=config_thumbnail)
 
 
 server = app.server
