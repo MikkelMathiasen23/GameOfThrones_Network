@@ -10,6 +10,4 @@ Insert correct links in 02_data and 03_basic_statistics.ipynb
 
 Place  = Haystack
 
-Skal vi lave tabs for most connected character for hver sæson? 
-
 
