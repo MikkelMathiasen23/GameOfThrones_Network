@@ -6,3 +6,4 @@ scikit-image
 gunicorn
 whitenoise
 pillow
+requests
