@@ -14,6 +14,7 @@ from fa2 import ForceAtlas2
 
 from skimage import io
 import random
+import os
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -26,6 +27,7 @@ styles = {
     }
 }
 
+os.chdir('network_app/')
 network = nx.read_gpickle("got_G_s1.gpickle")
 
 def compute_positions(network):
