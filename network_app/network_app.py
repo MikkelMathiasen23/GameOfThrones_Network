@@ -222,4 +222,5 @@ def display_click_data(clickData):
 
 if __name__ == '__main__':
     server = app.server
+    server.wsgi_app = WhiteNoise(server.wsgi_app, root=‘static/’)
     app.run_server(debug=True)
