@@ -220,7 +220,6 @@ def display_click_data(clickData):
     return json.dumps(clickData, indent=2),thumbnail
 
 
-if __name__ == '__main__':
-    server = app.server
-    server.wsgi_app = WhiteNoise(server.wsgi_app, root='static/')
-    app.run_server(debug=True)
+server = app.server
+server.wsgi_app = WhiteNoise(server.wsgi_app, root='static/')
+app.run_server(debug=True)
