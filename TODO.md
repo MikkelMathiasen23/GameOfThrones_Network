@@ -16,4 +16,6 @@ Subconclusions
 # Basic statistics: 
 Place  = Haystack
 
+# Network analysis
+tilføj overlays til network app for status og apperances.
 
