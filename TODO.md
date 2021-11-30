@@ -21,4 +21,5 @@ tilføj overlays til network app for status og apperances.
 
 # Text analysis
 App til at generere wordcloud for karakterer?
+Forskellige farver til wordclouds så de ikke ser så ens ud
 
