@@ -1,6 +1,4 @@
 
-Insert correct links in 02_data and 03_basic_statistics.ipynb
-
 Text analyse : skriv text analyse 
 
 Gem fa2 positioner 
