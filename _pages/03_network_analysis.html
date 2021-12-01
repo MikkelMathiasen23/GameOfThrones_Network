@@ -27,11 +27,11 @@ layout: notebook
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 align="center">How is the network generated?</h1><p>This section will explain the methodology to produce the network of Game Of Thrones characters. This section will be divided into two parts, as the first part generated the network across all season and the second part will explain how the network was generated for each season.</p>
-<h3 align="center"> Part 1 </h3><p>The character network describing interactions between the characters across all seasons will be described in this part. This part did scrape the <a href="https://gameofthrones.fandom.com/wiki/Game_of_Thrones_Wiki">Game Of Thrones Wiki-page</a>, here the site contains a section for each season describing all the characters present in each season. By iterating through all these pages on the wiki-page it was possible to extract characters by the use of regular expressions. Having the list of each characters present across all seasons, the next task would be to extract information about each character, and find the links between all characters.</p>
-<p>In the next part we did again utilize the Wiki-page of each character, again using the  <a href="https://gameofthrones.fandom.com/wiki/Game_of_Thrones_Wiki">Game Of Thrones Wiki-page</a> API to extract information of each character. Through the use of regular expressions it was possible to extract information about the allegiance, culture, religion, appearances and status of each character as this is listed in a fact-box on each character page (though some pages did not contain this information). Further, it was possible to find links between characters, as each page are linked to other characters that they somehow interact with.</p>
-<p>As we wanted to emphasis on how strong the link was between individual characters, as some might only be connected once and therefore not have a very large impact, we did also save the frequency of each unique connection between characters.</p>
-<p>The network information had now been collected so each character did have assigned the following attributes:</p>
+<h1 align="center">How is the network generated?</h1><p>This section will explain the methodology to produce the network of Game Of Thrones characters. This section will be divided into two parts, as the first part generates the network across all seasons and the second part will explain how the network is generated for each season.</p>
+<h3 align="center"> Part 1 </h3><p>The character network describing interactions between the characters across all seasons will be described in this part. To accomplish this, the <a href="https://gameofthrones.fandom.com/wiki/Game_of_Thrones_Wiki">Game Of Thrones Wiki-page</a> is scraped. The site contains a section for each season describing all the characters present in each season. By iterating through all these pages on the wiki-page it was possible to extract characters by the use of regular expressions. Having the list of each characters present across all seasons, the next task would be to extract information about each character, and find the links between all characters.</p>
+<p>In the next part we, again, utilize the Wiki-page of each character, again using the <a href="https://gameofthrones.fandom.com/wiki/Game_of_Thrones_Wiki">Game Of Thrones Wiki-page</a> API to extract information of each character. Through the use of regular expressions it was possible to extract information about the allegiance, culture, religion, appearances and status of each character as this is listed in a fact-box on each character page (though some pages did not contain this information). Further, it was possible to find links between characters, as each page is linked to other characters that they somehow interact with.</p>
+<p>As we wanted to put emphasis on how strong the link was between individual characters, as some might only be connected once and therefore not have a very large impact, we also saved the frequency of each unique connection between characters.</p>
+<p>The network information had now been collected so each character have assigned the following attributes were available:</p>
 <ul>
 <li>Allegiance </li>
 <li>Culture</li>
@@ -43,9 +43,9 @@ layout: notebook
 </ul>
 <p>We are now ready to generate the visualizations of the network, and this will be presented a little later in this section.</p>
 <h3 align="center"> Part 2 </h3><p>This part will explain how the networks were generated for each season, which would make it possible to investigate how the interactions between houses, cultures, characters etc. evovle through the series. 
-Similar to the previous part we did utilize the Wiki-page API to iterate through each season and extract the characters present in each season.</p>
+Similar to the previous part we utilize the Wiki-page API to iterate through each season and extract the characters present in each season.</p>
 <p>When extracting information for each character present in each season we did not extract the whole character page but only the part describing their presence in each season. Each character page contains a fact-box, a short introduction, and then a couple of sections describing their presence in each season (if present in multiple seasons). This could be utilized to extract interactions for each season.</p>
-<p>We did again include information about allegiance, culture and religion, which we did extract from the network generated in the previous part. Again the frequency of each link was included.</p>
+<p>We,again, include information about allegiance, culture and religion, which we extract from the network generated in the previous part. Again the frequency of each link is included.</p>
 
 </div>
 </div>
@@ -171,7 +171,7 @@ if (outputEl) {{
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>From the table above it appears that <em>Jon Snow</em> are the most connected character based on in-degree. Also it should be noted that all five characters are main characters in Game Of Thrones, and therefore it would make sense that they are well connected in the network. Further, all but <em>Eddard Stark</em> are characters that are appearing in most episodes (see <a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/02_Basic_Statistics/">Basic Statistics</a>).</p>
+<p>From the table above it appears that <em>Jon Snow</em> is the most connected character based on in-degree. Also it should be noted that all five characters are main characters in Game Of Thrones, and therefore it would make sense that they are well connected in the network. Further, all but <em>Eddard Stark</em> are characters that are appearing in most episodes (see <a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/02_Basic_Statistics/">Basic Statistics</a>).</p>
 <p><em>Eddark Stark</em> dies quite early in the series, and it might be a surprise that he is one of the most connected characters, but as this is based on in-degree this could be due to many of the others characters pages references Eddard. This would make sense as his children probably talks about him/mentions him and therefore make him very connected compared to many other characters.</p>
 <p>Based on out-degree again <em>Jon Snow</em> is the most connected character, but we see that <em>Eddard Stark</em>, <em>Daeneras Targaryen</em> and <em>Cersei Lannister</em> are replaced by <em>Sansa Stark, Arya Stark</em> and <em>Jamie Lannister</em> which also are very well connected characters and also appears as main characters in the series.</p>
 
@@ -180,9 +180,15 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 align="center">Network graph</h1><p>The network generated are now going to be presented in the interactive figure below. The network contains multiple settings for the user to choose. Firstly, it is possible to choose whether the network should be based on all text based from the character pages ie. all season, or whether the user wants to inspect the network based on a separate season. Further, different overlays can be chosen based on the character attributes namely: religion, allegiance, culture, appearances or status.</p>
-<p>When selecting a character one will be presented with an image of the character, and a short description of the character attributes, a link to the wiki-page and the most frequent words used by the character based on TF-IDF which will be explained in the <a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/textanalysis/">Text Analysis section</a>.</p>
+<h1 align="center">Network graph</h1><p>The network generated are now going to be presented in the interactive figure below. The network contains multiple settings for the user to choose. Firstly, it is possible to choose whether the network should be based on all text based from the character pages ie. all season, or whether the user wants to inspect the network based on a separate season. Further, different overlays can be chosen based on the character attributes namely: religion, allegiance or culture.</p>
+<p>When selecting a character one will be presented with an image of the character, and a short description of the character attributes, a link to the wiki-page and the most frequent used words by the character based on TF-IDF which will be explained in the <a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/textanalysis/">Text Analysis section</a>.</p>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<iframe src="https://gameofthronesnetworknx.herokuapp.com/" height = "1200" width = "1000"> </iframe>
 </div>
 </div>
 </div>
@@ -194,7 +200,7 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Next we are going to investigate how the attributes relate and interact with each other, also it could be that some eg. religions are more well connected than others. We will start out by examining the allegiance attribute.</p>
+<p>Next we are going to investigate how the attributes relate and interact with each other, also it could be that some attributes eg. religion is more well connected than others. We will start out by examining the allegiance attribute.</p>
 
 </div>
 </div>
@@ -253,7 +259,7 @@ if (outputEl) {{
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The figure above shows the top 10 most connected allegiances in Game Of Thrones, and it can clearly be seen that <em>House Stark</em> is the most connected allegiance, but a lot of the connectivity derives from the interaction with their own allegiance. Further, it can be seen that <em>House Stark</em> are well connected with <em>House Lannister</em>, <em>Night's Watch</em> and <em>House Bolton</em>. The connection with <em>House Lannister</em> and <em>Night's Watch</em> can easily be explained by eg. <em>Ned Starks</em> work as the Kings Hand but also <em>Sansa Stark</em> being married with Joffrey. Further, <em>Jon Snow</em> from the <em>House Stark</em> allegiance are becoming part of <em>Night's Watch</em> can explain this interaction.</p>
+<p>The figure above shows the top 10 most connected allegiances in Game Of Thrones, and it can clearly be seen that <em>House Stark</em> is the most connected allegiance, but a lot of the connectivity derives from the interaction with their own allegiance. Further, it can be seen that <em>House Stark</em> is well connected with <em>House Lannister</em>, <em>Night's Watch</em> and <em>House Bolton</em>. The connection with <em>House Lannister</em> and <em>Night's Watch</em> can easily be explained by eg. <em>Ned Starks'</em> work as the Kings Hand but also <em>Sansa Stark</em> being married with Joffrey. Further, <em>Jon Snow</em> from the <em>House Stark</em> allegiance are becoming part of <em>Night's Watch</em> can explain this interaction.</p>
 <p>Generally, it can also be seen that the allegiances interacts with it-self most, compared to interaction with other allegiances.</p>
 <p>Next, we will look into how the religions interact, and from the figure below, it can clearly be seen that the two main religions are the religions that mainly interact with each other, which does not come as a surprise.</p>
 
@@ -314,8 +320,8 @@ if (outputEl) {{
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In the figure below, the connection between cultures are investigated. Here it can be seen that the <em>Andals</em> are the most connected culture, followed by <em>Northmen</em>, further it can be seen that these two cultures interact alot.</p>
-<p>Further, it can be seen that the third most connected culture are <em>Valyrians</em> which does not mainly interact with themselves, but instead are most connected to <em>Andals</em>.</p>
+<p>In the figure below, the connection between cultures are investigated. Here it can be seen that the <em>Andals</em> are the most connected culture, followed by <em>Northmen</em>. Furthermore, it can be seen that these two cultures interact alot.</p>
+<p>It can be seen that the third most connected culture is <em>Valyrians</em> which does not mainly interact with themselves, but instead are most connected to <em>Andals</em>.</p>
 
 </div>
 </div>
@@ -375,7 +381,7 @@ if (outputEl) {{
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 align="center">Network assortivity and centrality</h1><p>In this section we are going to investigate some of the network properties of the character network across all seasons. In order to further investigate network properties we are going to compute assortivity and centrality of the network.</p>
-<p>From the table below it can be seen that culture has the highest assortivity score, which would indicate that this attribute are the best to distinquish the characters from each other. It should be noted that none of the scores are very high indicating, that the characters are linked in a more complex pattern, or based on another attribute.</p>
+<p>From the table below it can be seen that religion has the highest assortivity score, which would indicate that this attribute is the best to distinquish the characters from each other. It should be noted that none of the scores are very high indicating, that the characters are linked in a more complex pattern, or based on another attribute.</p>
 
 </div>
 </div>
@@ -435,7 +441,7 @@ if (outputEl) {{
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We are further going to investigate the closeness centrality of each node in the network, which measures the reciprocal sum of shortests paths from the given node to all other nodes. If a node therefore has a high closeness centrality score this means that the node is close to the rest and vice versa. This could give us an indication of well connected characters and further important characters.</p>
-<p>In the table below the closeness centrality score is computed for all characters and sorted in descending order. As expected it can be seen that <em>Jon Snow, Daenerys Targaryen</em> and <em>Tyrion Lannister</em> are some of the characters close to the others. Further, <em>Stannis Baratheon</em> are has a high centrality score, which would make sense as he is involved both as an air to the throne, but also his involment with the red priest <em>Mellisandre</em>.</p>
+<p>In the table below the closeness centrality score is computed for all characters and sorted in descending order. As expected it can be seen that <em>Jon Snow, Daenerys Targaryen</em> and <em>Tyrion Lannister</em> are some of the characters close to the others. Further, <em>Stannis Baratheon</em> has a high centrality score, which would make sense as he is involved both as an heir to the throne, but also his involment with the red priest <em>Mellisandre</em>.</p>
 <p>Further, <em>Gregor Clegane, Eddard Stark, Bronn</em> and the <em>Night King</em> has a high centrality score, which does not come as a surprise as these are key characters in the story, and interacts with many characters.</p>
 
 </div>
@@ -503,15 +509,21 @@ if (outputEl) {{
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In the interactive figure below it is possible to investigate in-, out-degrees and closeness centrality score for each character in each season. This makes it possible to investigate how connected the characters are in each season, and this might give an indication of which characters that are most important in each season.</p>
-<p>It is possible to search for specific characters, and sort the values, this will be done in both the table and the bar-plots below. Further, can attributes and characters be deleted if needed.</p>
+<p>It is possible to search for specific characters, and sort the values. This will be done in both the table and the bar-plots below. Furthermore, attributes and characters can be deleted if needed.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>From the table it can be seen that the most connected and maybe important characters in season 1 might be <em>Eddard Stark</em> and <em>Robert Baratheon</em>, which makes perfect sense as Eddard are present a lot in season 1, both in Winterfell but also when he becomes the Kings hand. Robert are also very "active" in season 1, as he rules as King and also dies when hunting - <em>killed by a pig</em>, as he says it.</p>
-<p>Season 2, here <em>Joffrey Baratheon</em> the new king rules, and <em>Robb Stark</em> goes to war as he wants to free his father Eddard from prison in Kings Landing.</p>
+<iframe src="https://gameofthronestables.herokuapp.com/" width = "1000" height = "1000"> </iframe>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>From the table it can be seen that the most connected and maybe important characters in season 1 might be <em>Eddard Stark</em> and <em>Robert Baratheon</em>, which makes perfect sense as Eddard is present a lot in season 1, both in Winterfell but also when he becomes the Kings hand. Robert is also very central in season 1, as he rules as King and dies when hunting - <em>killed by a pig</em>, as he says it.</p>
+<p>Season 2, here <em>Joffrey Baratheon</em>, the new king, rules, and <em>Robb Stark</em> goes to war as he wants revenge for his fathers execution in season 1.</p>
 <p>Later, in season 7 <em>Jon Snow</em>  and <em>Daenerys Targaryen</em> becomes key players as the winter is approaching and the focus moves from Kings Landing to the wall and the fight against the dead.</p>
 
 </div>
@@ -526,14 +538,6 @@ if (outputEl) {{
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><a style='text-decoration:none;line-height:16px;display:flex;color:#5B5B62;padding:10px;justify-content:end;' href='https://deepnote.com?utm_source=created-in-deepnote-cell&projectId=0aadd790-0254-407e-bf1a-a0259cad43c9' target="_blank">
-{% include image.html alt="Created in deepnote.com" style="display:inline;max-height:16px;margin:0px;margin-right:7.5px;" file="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iODBweCIgaGVpZ2h0PSI4MHB4IiB2aWV3Qm94PSIwIDAgODAgODAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU0LjEgKDc2NDkwKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cCAzPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IkxhbmRpbmciIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBcnRib2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyMzUuMDAwMDAwLCAtNzkuMDAwMDAwKSI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjM1LjAwMDAwMCwgNzkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iUGF0aC0yMCIgZmlsbD0iIzAyNjVCNCIgcG9pbnRzPSIyLjM3NjIzNzYyIDgwIDM4LjA0NzY2NjcgODAgNTcuODIxNzgyMiA3My44MDU3NTkyIDU3LjgyMTc4MjIgMzIuNzU5MjczOSAzOS4xNDAyMjc4IDMxLjY4MzE2ODMiPjwvcG9seWdvbj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zNS4wMDc3MTgsODAgQzQyLjkwNjIwMDcsNzYuNDU0OTM1OCA0Ny41NjQ5MTY3LDcxLjU0MjI2NzEgNDguOTgzODY2LDY1LjI2MTk5MzkgQzUxLjExMjI4OTksNTUuODQxNTg0MiA0MS42NzcxNzk1LDQ5LjIxMjIyODQgMjUuNjIzOTg0Niw0OS4yMTIyMjg0IEMyNS40ODQ5Mjg5LDQ5LjEyNjg0NDggMjkuODI2MTI5Niw0My4yODM4MjQ4IDM4LjY0NzU4NjksMzEuNjgzMTY4MyBMNzIuODcxMjg3MSwzMi41NTQ0MjUgTDY1LjI4MDk3Myw2Ny42NzYzNDIxIEw1MS4xMTIyODk5LDc3LjM3NjE0NCBMMzUuMDA3NzE4LDgwIFoiIGlkPSJQYXRoLTIyIiBmaWxsPSIjMDAyODY4Ij48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMCwzNy43MzA0NDA1IEwyNy4xMTQ1MzcsMC4yNTcxMTE0MzYgQzYyLjM3MTUxMjMsLTEuOTkwNzE3MDEgODAsMTAuNTAwMzkyNyA4MCwzNy43MzA0NDA1IEM4MCw2NC45NjA0ODgyIDY0Ljc3NjUwMzgsNzkuMDUwMzQxNCAzNC4zMjk1MTEzLDgwIEM0Ny4wNTUzNDg5LDc3LjU2NzA4MDggNTMuNDE4MjY3Nyw3MC4zMTM2MTAzIDUzLjQxODI2NzcsNTguMjM5NTg4NSBDNTMuNDE4MjY3Nyw0MC4xMjg1NTU3IDM2LjMwMzk1NDQsMzcuNzMwNDQwNSAyNS4yMjc0MTcsMzcuNzMwNDQwNSBDMTcuODQzMDU4NiwzNy43MzA0NDA1IDkuNDMzOTE5NjYsMzcuNzMwNDQwNSAwLDM3LjczMDQ0MDUgWiIgaWQ9IlBhdGgtMTkiIGZpbGw9IiMzNzkzRUYiPjwvcGF0aD4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+" %} </img>
-Created in <span style='font-weight:600;margin-left:4px;'>Deepnote</span></a></p>
-
-</div>
-</div>
-</div>
 </div>
  
+
