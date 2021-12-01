@@ -1,9 +1,4 @@
-
-Text analyse : skriv text analyse 
-
 Gem fa2 positioner 
-
-Skriv community wordclouds
 
 Subconclusions
 
