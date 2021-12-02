@@ -38,32 +38,10 @@ styles = {
 os.chdir('network_app/')
 network = nx.read_gpickle("got_G_s1.gpickle")
 
-def compute_positions(network):
+with open('positions_all_seasons.json') as f:
+    positions = json.load(f)
 
-    forceatlas2 = ForceAtlas2(
-                        # Behavior alternatives
-                        outboundAttractionDistribution=True,  # Dissuade hubs
-                        edgeWeightInfluence=1,
 
-                        # Performance
-                        jitterTolerance=0.2,  # Tolerance
-                        barnesHutOptimize=True,
-                        barnesHutTheta=0.5,
-                        multiThreaded=False,  # NOT IMPLEMENTED
-
-                        # Tuning
-                        scalingRatio=10.0,
-                        strongGravityMode=False,
-                        gravity=0.01,
-
-                        # Log
-                        verbose=True)
-
-    positions = forceatlas2.forceatlas2_networkx_layout(G= network, pos=None, iterations=2000)
-    return positions
-
-random.seed(1)
-positions = compute_positions(network)
 attribute = 'religion'
 
 edge_traces, node_traces = make_figure(network, attribute, positions)
@@ -175,13 +153,19 @@ def display_figure(season_dropdown_menu,attribute_dropdown_menu):
     end_path = '.gpickle'
     complete_path = base_path + season_dropdown_menu + end_path
 
+    base_path_pos = 'positions_'
+    end_path_pos = '.json'
+    complete_path_pos = base_path_pos + season_dropdown_menu + end_path_pos
+
     if season_dropdown_menu == 'got_G':
         complete_path = season_dropdown_menu + end_path
+        complete_path_pos = base_path_pos + 'all_seasons' + end_path_pos
 
     network = nx.read_gpickle(complete_path)
     attribute = attribute_dropdown_menu
-    random.seed(1)
-    positions = compute_positions(network)
+
+    with open('positions_all_seasons.json') as f:
+        positions = json.load(f)
 
     edge_traces, node_traces = make_figure(network, attribute, positions)
 
@@ -223,4 +207,5 @@ def display_click_data(clickData):
 
 server = app.server
 server.wsgi_app = WhiteNoise(server.wsgi_app, root='static/')
+
 
