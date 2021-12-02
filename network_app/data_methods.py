@@ -6,6 +6,7 @@ from fa2 import ForceAtlas2
 
 import plotly.graph_objects as go
 import plotly.express as px
+import json
 
 
 
@@ -176,6 +177,50 @@ def create_thumbnail(img_src):
     )
 
     return fig
+
+
+if __name__ == '__main__':
+
+    def compute_positions(network):
+
+        forceatlas2 = ForceAtlas2(
+                            # Behavior alternatives
+                            outboundAttractionDistribution=True,  # Dissuade hubs
+                            edgeWeightInfluence=0.1,
+
+
+                            # Performance
+                            jitterTolerance=0.001,  # Tolerance
+                            barnesHutOptimize=True,
+                            barnesHutTheta=0.5,
+                            multiThreaded=False,  # NOT IMPLEMENTED
+
+                            # Tuning
+                            scalingRatio=20.0,
+                            strongGravityMode=False,
+                            gravity=0.01,
+
+                            # Log
+                            verbose=True)
+
+        positions = forceatlas2.forceatlas2_networkx_layout(G= network, pos=None, iterations=2000)
+        return positions
+
+    for i in range(8):
+        network_path = "got_G_s" + str(i+1) + ".gpickle"
+        network = nx.read_gpickle(network_path)
+        positions = compute_positions(network)
+
+        file_name = "positions_s" + str(i+1) + '.json'
+
+        with open(file_name, 'w') as f:
+            json.dump(positions, f)
+
+    network = nx.read_gpickle("got_G.gpickle")
+    positions = compute_positions(network)
+    with open("positions_all_seasons.json", 'w') as f:
+        json.dump(positions, f)
+
 
 
     
