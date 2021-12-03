@@ -71,7 +71,9 @@
   
 
   
-      ,"page7": {
+
+  
+      ,"page8": {
           "title": "",
           "content": ". of the website . The website contains 6 sections. The first section The Data describes the data, where it is found, and briefly what it is used for. The next section performs an initial exploratory analysis of the data. The third section performs an analysis of the Game Of Thrones networks describing how the network is created and how the charaters interact. The next part performs text analysis of the character dialogoues but also the text from the character wiki-pages. The fifth section detects communities in the network, and perform analysis on these. . Lastly, the analysis performed throughout the website can be found in the explainer notebook if one want&#39;s to dig into all the details. If one want&#39;s to replicate the analysis the data can be downloaded in the data section. . The Data | Basic Statistics of the Data | The Game of Thrones Network | Text Analysis | Community Detection | Explainer Notebook | . Aim of project . The Game of Thrones series recieved world-wide rekognition and is the most watched series to date. It takes place in a mediaval fantasy universe and introduces many characters with complicated relations. The goals of this project is to try and answer, who was actually the main character throughout the seasons and if it is possible to find a pattern in all these character relations. We will also investigate the overall themes of the series and if these changes over the course of the show. . To sum it up, this project will try to answer the following: . Who is the main characters of each season of the series? | Is it possible to find a pattern in the data that helps understand the complicated world of Westeros? | Is the theme of the Game of Thrones series consistent throughout the show or does it change during it&#39;s course? | . The following video is a short presentation of the aim of the project: . . The Game of Thrones Universe . The Game of Thrones is based on the book series &quot;A Song of Ice and Fire&quot; written by George R. R. Martin and takes place in the mediaval fantasy world of Westeros and Essos. During the show, the viewer follow multiple story arcs: A succesion war amongst the houses of Westeros as the king, Robert Baratheon, dies and doubt of the legitimacy of his childrens claim to the throne arises. Another arc takes place in the northern most part of Westeros, where the Night Watch have guarded the Wall keeping the Seven Kingdoms safe for centuries. And a third arc, where the viewers follow an exiled princess who wishes to reconquer The Seven Kingdoms and reclaim her birth right, the Iron Throne. . . The Website . This website is built using the blogging template fastpages built by fastai. It uses GitHub actions to create Jekyll blog posts on GitHub Pages by converting jupyter notebooks to html .",
           "url": "https://mikkelmathiasen23.github.io/GameOfThrones_Network/",
@@ -101,7 +103,7 @@
   
 
   
-      ,"page15": {
+      ,"page16": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://mikkelmathiasen23.github.io/GameOfThrones_Network/robots.txt",
