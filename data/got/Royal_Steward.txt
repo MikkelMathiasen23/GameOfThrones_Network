@@ -1,0 +1,39 @@
+{{PureConjecture}}
+{{Character
+|Title = Royal Steward
+|Image = Royal Steward.jpg
+|Season = [[Game of Thrones Season 1|1]]
+|First = "[[Lord Snow]]"
+|Last = "[[The Pointy End]]"
+|Appearances = 4 episodes <small>([[#Appearances|see below]])</small>
+|Status = [[:Category:Individuals of uncertain fate|Uncertain]]
+|Allegiance = [[House Baratheon of King's Landing]]
+|Actor = [[Robert Sterne]]
+}}
+{{Quote|Perhaps you'd like to change into something more appropriate?|The Steward to [[Eddard Stark]]|Lord Snow}}
+
+The '''Royal Steward''' serves the [[Iron Throne]]. He issues his summons and announces arrivals to the court.
+
+==Biography==
+===[[Game of Thrones Season 1|Season 1]]===
+He summons the new [[Hand of the King]] [[Eddard Stark]] to the [[small council]] upon his arrival in [[King's Landing]].<ref>"[[Lord Snow]]"</ref> He summons Eddard again when King [[Robert Baratheon]] receives news of [[Daenerys Targaryen]]'s pregnancy.<ref>"[[The Wolf and the Lion]]"</ref>
+
+He summons [[Eddard Stark]] to see the newly crowned King [[Joffrey Baratheon]] following the death of Robert in a hunting accident. Eddard is arrested and imprisoned when he impugns Joffrey's claim to the throne.<ref>"[[You Win or You Die]]"</ref> He announces the arrival of [[Sansa Stark]] to the court to plead mercy for her father.<ref>"[[The Pointy End]]"</ref>
+
+==Appearances==
+{{GoT/Season 1 appearances|||yes||yes||yes|yes}}
+
+==Behind the scenes==
+Robert Sterne is a casting director for the ''Game of Thrones'' TV series.
+
+==In the books==
+In the ''[[A Song of Ice and Fire]]'' novels, the Royal Steward has a similar role, though his name, like in the show, is never mentioned. He greets Eddard when he arrives in King's Landing and summons him to the small council but rather than suggesting that he change he actually provides clothing for him. It is the steward rather than [[Renly Baratheon]] who summons Eddard after Robert's hunting accident in the books. As in the series he appears again to summon Eddard when Joffrey takes the throne. In the book it is a herald rather than the steward who announces Sansa to the court.
+
+==References==
+{{Reflist}}
+[[de:Königlicher Haushofmeister]]
+[[ru:Королевский стюард]]
+[[Category:Servants and retainers of House Baratheon of King's Landing]]
+[[Category:Stewards]]
+[[Category:Crownlanders]]
+[[Category:Individuals of uncertain fate]]

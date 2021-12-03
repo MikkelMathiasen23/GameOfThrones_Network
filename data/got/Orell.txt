@@ -1,0 +1,75 @@
+{{Heraldry
+|image = Free-Folk-Main-Shield.PNG
+|link = Free Folk}}
+{{Character
+|Title = Orell
+|Image = Orell S3 Crop.jpeg
+|Season = [[Game of Thrones Season 3|3]]
+|First = "[[Dark Wings, Dark Words]]"
+|Last = "[[The Rains of Castamere (episode)|The Rains of Castamere]]"
+|Appearances = 6 episodes <small>([[#Appearances|see below]])</small>
+|Status = [[:Category: Deceased individuals|Deceased]]
+|Death = [[Timeline#Season 3 - 300 AC|300 AC]] at [[Queenscrown]]
+Run through the chest with [[Longclaw]] by [[Jon Snow]]; [[warg|soul inhabited]] in an eagle's body
+|DeathEp = "[[The Rains of Castamere (episode)|The Rains of Castamere]]"
+|Place = [[Beyond the Wall]]
+|Allegiance = [[Free Folk]]
+|Culture = [[Free Folk]]
+|Actor = [[Mackenzie Crook]]
+|Family = 
+}}
+{{Quote|People work together when it suits 'em. They're loyal when it suits 'em. Love each other when it suits 'em. And they kill each other when it suits 'em.|Orell|The Bear and the Maiden Fair (episode)}}
+'''Orell''' was a [[Free Folk|wildling]] [[warg]], who could assume the consciousness of an eagle that he used for reconnaissance.
+
+==Biography==
+===[[Game of Thrones Season 3|Season 3]]===
+While the massive host of the Free Folk marches out of [[Skirling Pass]] through the [[Frostfangs]], Orell scouts the [[Fist of the First Men]] by warging into his pet eagle. He discovers dead "[[Night's Watch|crows]]" - the result of the [[Battle of the Fist of the First Men]].<ref>"[[Dark Wings, Dark Words]]"</ref>
+
+Orell is among the party that reaches the Fist of the First Men alongside [[Jon Snow]] and [[Mance Rayder]]. Here they encounter the bloody aftermath of assault on the Night's Watch by the [[White Walkers]] and their army of undead [[wights]]. Except for corpses of horses, there is no sign of any human corpses - which Orell had seen when he scouted ahead earlier by warging into his eagle.<ref>"[[Walk of Punishment (episode)|Walk of Punishment]]"</ref>
+
+While climbing the [[Wall]], a crack within the ice causes an avalanche. Losing their footing, Orell yells to [[Tormund]] they must cut Jon and [[Ygritte]]'s rope. Orell eventually cuts the rope, and Jon is able to swing Ygritte and himself to safety before it snaps.<ref>"[[The Climb]]"</ref>
+
+The wildling party, consisting of Ygritte, Tormund, Jon, and others, captures [[Old man|a horse breeder]] . As Tormund is about to kill him, Orell intervenes and says that the "crow" should do it. Jon walks forward and presses his sword against the man's jugular, but cannot bring himself to kill him; the man is shot by Ygritte. 
+[[File:Rain of castamere orell.png|thumb|Jon kills Orell with Longclaw.]]
+Orell shouts and claims that Jon always was a "crow" and a battle ensues. After a few moments of sword fighting, Jon shoves his sword into Orell's chest and whispers "You were right the whole time", before pulling it out and leaving Orell on the ground to die. Orell manages to cheat death, however, by warging into the mind of his eagle with his dying breath. As Jon stands over Orell's dead human body, Orell's consciousness controlling the eagle's body attempts to exact revenge by clawing at Jon's face with his beak and talons, but Jon is able to fight him off.<ref>"[[The Rains of Castamere (episode)|The Rains of Castamere]]"</ref>
+
+===[[Game of Thrones Season 4|Season 4]]===
+[[Jojen Reed]] mentions to [[Bran Stark|Bran]] that if one wargs into an animal for too long, they will forget what it was like to be human. As Orell must now stay inside the eagle for the rest of his life, this is presumably what will happen to him.<ref>"[[The Lion and the Rose]]"</ref>
+
+==Abilities==
+*'''[[Warg]]:''' Orell was a wildling warg. Before he died, he warged into his eagle and attacked Jon Snow. Before that, he used his eagle for reconnaissance.
+
+==Appearances==
+{{GoT/Season 3 appearances||yes|yes||yes|yes|yes||yes}}
+
+==Gallery==
+<gallery widths="180" spacing="small">
+OrellS3.jpg|Orell in Season 3
+OrellS3Promo.jpg
+OrellWarg.jpg|Orell while warging
+Orell 302.jpg
+Rain_of_castamere_orell.png|Orell is killed by Jon Snow
+</gallery>
+
+==Quotes==
+{{Quote|You won't love him so much when you find out what he really is.|Orell to [[Ygritte]] about [[Jon Snow]]|The Bear and the Maiden Fair (episode)}}
+
+==In the books==
+In the ''[[A Song of Ice and Fire]]'' novels, Orell is a [[wildling]] raider in the same band as Ygritte. He has an affinity for animals including his pet eagle.
+
+Orell is killed in the confrontation with [[Qhorin]]'s scouting party, during which Orell is inhabiting his eagle. A portion of Orell's consciousness remains within the eagle, and develops a deep hatred of Jon. The eagle then aids Rattleshirt in tracking and capturing Jon and Qhorin. Later, shortly before the wildlings arrive at the [[Fist of the First Men]], the eagle attacks Jon, scars his face and attempts to claw his eyes out before Ygritte drives it away. 
+
+Another wildling skinchanger, Varamyr Sixskins, takes control of Orell's eagle, using it to scout [[Castle Black]] and spots [[Stannis Baratheon|Stannis]]'s arrival at the Wall. During the battle [[Melisandre]] destroys the eagle with her fire magic, driving Varamyr insane and presumably destroying also the remnants of Orell inside the eagle.
+
+==See also==
+*{{AWOIAF}}
+
+==References==
+{{Reflist}}
+[[de:Orell]]
+[[ru:Орелл]]
+[[fr:Orell]]
+[[Category:Free Folk]]
+[[Category:Wargs]]
+[[Category:Mance Rayder's army]]
+[[Category:Deceased individuals]]

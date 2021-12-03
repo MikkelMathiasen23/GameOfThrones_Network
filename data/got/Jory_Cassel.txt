@@ -1,0 +1,80 @@
+{{Character
+|Title =Jory Cassel
+|Image = Jory profile.jpg
+|Season = [[Game of Thrones Season 1|1]]
+|First = "[[Winter Is Coming]]"
+|Last = "[[The Wolf and the Lion]]"
+|Appearances = 5 episodes <small>([[#Appearances|see below]])</small>
+|Mentioned="[[A Golden Crown]]"
+|Titles = [[Captain of the Guards]] <small>(for [[House Stark]])</small>
+|Status = [[:Category:Deceased individuals|Deceased]]
+|Death = [[Timeline#Season 1 - 298 AC|298 AC]] at [[King's Landing]]
+Stabbed through the eye with a dirk by [[Jaime Lannister]]
+|DeathEp = "[[The Wolf and the Lion]]"
+|Place = [[Winterfell]]
+|Allegiance = [[House Cassel]] <small>(by birth)</small><br>[[House Stark]] <small>(by pledge)</small>
+|Culture = [[Northmen]]
+|Family =  
+|Actor = [[Jamie Sives]]}}
+{{Dialogue a-b|Jaime|Do you remember Thoros of Myr charging through the breach?|Jory|With his burning sword? I'll remember that 'til the day I die...|[[Jaime Lannister]] and Jory Cassel reminiscing about the [[Siege of Pyke]]|Cripples, Bastards, and Broken Things}}
+'''Jory Cassel''' was the [[Captain of the Guards]] to [[House Stark]].
+
+==Biography==
+===Background===
+Jory Cassel was the captain of Lord [[Eddard Stark]]'s household guards at [[Winterfell]]. He is an extremely loyal and trusted servant of House Stark and a good swordsman and warrior. He is the nephew of Ser [[Rodrik Cassel]], Winterfell's [[master-at-arms]]. He fought at the [[Siege of Pyke]] during the [[Greyjoy Rebellion]] alongside [[Jaime Lannister|Jaime]] and [[Thoros]] of [[Myr]], where he gained his noticeable scar from one of the Greyjoys, who nearly took his eye.
+
+===[[Game of Thrones Season 1|Season 1]]===
+[[File:Mother of direwolves.jpg|thumb|Jory and the Stark entourage find the direwolves in the Wolfswood.]]
+Jory joins Eddard and his retinue as they venture out to execute [[Will]]. He is with the group when they find the [[direwolf]] pups.<ref>"[[Winter Is Coming]]"</ref> Jory later accompanies Eddard south to King's Landing. During the dispute between [[Joffrey Baratheon|Joffrey]] and [[Arya Stark|Arya]], Jory reports that Arya has been found and taken before the king. Jory accompanies Eddard to the [[Inn at the Crossroads|Crossroads Inn]] and listens as [[Robert Baratheon|King Robert]] questions those involved. [[Cersei Lannister|Queen Cersei]] convinces him to sentence Sansa's direwolf [[Lady]] to death despite her not being involved because Arya's wolf [[Nymeria (direwolf)|Nymeria]] cannot be found. Eddard asks Jory to look after Arya and [[Sansa Stark|Sansa]] while he attends to the execution.<ref>"[[The Kingsroad]]"</ref>
+
+Jory assists Eddard's investigation into [[Jon Arryn]]'s final days, unsuccessfully asking for the assistance of Ser [[Hugh]] of the [[Vale of Arryn|Vale]], accompanying Eddard to [[Tobho Mott]]'s smithy and later reminiscing over fighting in the Greyjoy Rebellion with Jaime.<ref>"[[Lord Snow]]"</ref><ref>"[[Cripples, Bastards, and Broken Things]]"</ref>
+Jory accompanies Eddard to [[Petyr Baelish]]'s brothel, still seeking illegitimate royal children. Jory is distracted by [[King's Landing whore (Lord Snow)|one of the whores]], while Eddard questions [[Mhaegen]]. On leaving, Eddard has to break Jory's attention away from the woman he is staring at so they can leave. As they walk outside accompanied by two Stark guards, [[Heward]] and [[Wyl (House Stark)|Wyl]], they are confronted by Jaime. Jaime has heard of his brother [[Tyrion Lannister|Tyrion]]'s arrest and demands his release. Eddard says it was done by his orders and if Jaime kills him Tyrion will die. Jaime has brought many Lannister men-at-arms.
+
+[[File:Jory Death.png|thumb|Jory's death.]]
+Jory begins to tell Jaime that if he threatens Eddard again, there will certainly be a fight. However, Jaime interrupts Jory, and he orders his men-at-arms to leave Eddard alive, but to kill his men. They easily spear Heward and Wyl. Jory attacks and kills two of Jaime's men before engaging Jaime himself. As Jaime and Jory trap swords, Jaime stabs Jory through the left eye with a dirk. Eddard, angered and stunned by Jory's death, exchanges blows with Jaime before a Lannister guardsman stabs him through the thigh, ending the melee.<ref>"[[The Wolf and the Lion]]"</ref>
+
+When news about Jory and the others reaches Winterfell, [[Theon Greyjoy|Theon]] insists that [[Robb Stark|Robb]] must make the Lannisters pay for their deaths, but Robb is hesitant about going to war.<ref>"[[A Golden Crown]]"</ref>
+
+==Appearances==
+{{GoT/Season 1 appearances|yes|yes|yes|yes|yes}}
+
+==Family tree==
+{{House Cassel family tree}}
+
+==Gallery==
+<gallery>
+Ned and Arya.jpg|Jory accompanies [[Eddard Stark|Eddard]] and [[Arya Stark|Arya]] Stark as Arya gives evidence to the King about the attack on his son by her direwolf.
+</gallery>
+
+==In the books==
+In the ''[[A Song of Ice and Fire]]'' novels, Jory is the son of Martyn Cassel, one of Eddard's companions who was killed in a duel with three members of the [[Kingsguard]] at the [[Tower of Joy]], while they were searching for [[Lyanna Stark|Lyanna]] during the closing days of [[Robert's Rebellion]]. Jory is a skilled warrior and a stalwart servant of the house.
+
+Jory's role in the series is somewhat expanded from the books. Dialogue from several different Stark guardsmen is given to Jory (most notably his promise to Arya that he will keep Eddard safe, which in the book was given by a guardsman named Desmond); the scenes where he talks to Ser Hugh and later Jaime Lannister are inventions of the TV series.
+
+There is no mention in the books that Jory fought at the Siege of Pyke, or at any stage of the Greyjoy Rebellion.
+
+In the book, Jory is not killed personally by Jaime, but by the Lannister guardsmen that ultimately overwhelmed the small Stark contingent.
+
+According to the TV series official [[pronunciation guide]] developed for the cast and crew, "Cassel" is pronounced "Cuss-EL", not "Kas-el" (that is, "Cassel" doesn't rhyme with "castle").
+
+==See also==
+*{{AWOIAF}}
+
+==References==
+{{Reflist}}
+{{Stark navbox}}
+{{DEFAULTSORT:Cassel, Jory}}
+
+[[de:Jory Cassel]]
+[[es:Jory Cassel]]
+[[fr:Jory Cassel]]
+[[it:Jory Cassel]]
+[[nl:Jory Cassel]]
+[[pl:Jory Cassel]]
+[[ru:Джори Кассель]]
+[[zh:乔里·凯索]]
+[[Category:Members of House Cassel]]
+[[Category:Captains of the Guards|Cassel, Jory]]
+[[Category:Servants and retainers of House Stark]]
+[[Category:Deceased individuals]]
+[[Category:Northmen]]

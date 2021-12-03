@@ -1,0 +1,73 @@
+{{Heraldry
+|image = House-Umber-Main-Shield.PNG
+|link = House Umber
+}}
+{{Character
+|Season = [[Game of Thrones Season 7|7]], [[Game of Thrones Season 8|8]]
+|Appearances = 3 episodes <small>([[#Appearances|see below]])</small>
+|Titles = [[Lord of Last Hearth]]
+|Status = [[:Category: Deceased individuals|Deceased]]
+|Age = 11 in [[Game of Thrones Season 8|Season 8]]<ref>His Season 7 HBO Viewer's Guide entry confirms that he is Smalljon's son in the TV continuity, and that he is 11 years old in Season 8. </ref>
+|Place = [[Last Hearth]]
+|Allegiance = [[House Umber]] <small>(by birth)</small><br>[[House Stark]] <small>(by oath)</small><br>[[White Walkers]] <small>(in death)</small>
+|Predecessor = {[[Smalljon Umber]]}
+|Culture = [[Northmen]]
+|Religion = [[Old Gods of the Forest]]
+|First ="[[Dragonstone (episode)|Dragonstone]]"
+|Last ="[[Winterfell (episode)|Winterfell]]"
+|Image = NedUmberCropped8x01.PNG
+|Father = {[[Smalljon Umber]]}|Actor = [[Harry Grasby]]|Birth = [[Timeline#King Robert's Reign|294 AC]]|Death = [[Timeline#Season 8 - 305 AC|305 AC]] at [[Last Hearth]]   
+Killed and raised as a [[wight]] during an [[Fall of Last Hearth|attack]] by the [[Wights|army of the dead]]. Subsequently burned by [[Beric Dondarrion]]
+| DeathEp = "[[Winterfell (episode)|Winterfell]]"}}
+{{Quote|Now and always.|Ned renews [[House Umber]]'s pledge of fealty to [[House Stark]]|Dragonstone (episode)}}
+Lord '''Ned Umber ''' was the son of [[Lord of the Last Hearth|Lord]] [[Smalljon Umber]] and his successor as the head of [[House Umber]].
+
+== Biography ==
+
+=== Background ===
+Ned Umber is the son of Smalljon Umber and grandson of [[Greatjon Umber]]. He seems to be named after [[Eddard Stark]], who was also known as Ned. After the death of his father at the [[Battle of the Bastards]], Ned becomes the new lord of House Umber and their castle despite being only ten years old.
+
+=== [[Game of Thrones Season 7|Season 7]] ===
+[[File:701 Alys and Ned.png|thumb|left|180x180px|Alys and Ned swear fealty to Jon.]]
+Ned is at the council of [[North|Northern]] and [[Vale of Arryn|Vale]] lords in [[Winterfell]]'s main hall held by the new [[King in the North]] Jon Snow. [[Sansa Stark|Sansa]] suggests giving the Last Hearth to an ally of Jon, but Jon dismisses this idea, as Ned wasn't to blame for Smalljon Umber's actions. Jon speaks his name and Ned stands up from amongst the other lords, a full head shorter than them and wearing an expression of fear and uncertainty. Jon then motions for him and [[Alys Karstark]] to walk forward and stand before him; fearing that he will have them executed, Ned and Alys obey. However, Jon does not show any desire to punish them for their fathers' actions and instead asks them to once more swear fealty to House Stark. Visibly relieved, Alys and Ned draw their swords, kneel before Jon and declare they will serve House Stark "now and always", retaining his position as [[Lord of Last Hearth]].<ref>"[[Dragonstone (episode)|Dragonstone]]"</ref>
+
+Ned is also present when Jon announces his plans to leave for [[Dragonstone]], to make an alliance with [[Daenerys Targaryen]] in order to defeat the Night King, and leave Sansa in control of the North.<ref>"[[Stormborn]]"</ref>
+
+=== [[Game of Thrones Season 8|Season 8]] ===
+[[File:801 Ned Wants Horses.png|thumb|right|Ned requests more horses and wagons for his house.]]
+Ned is assembled with several other Northern Lords when Jon arrives with Daenerys and her army, observing the Dragon Queen with curiosity and trepidation. He is then seen in the Great Hall of Winterfell with the assembled lords discussing the [[breaching of the Wall]] at [[Eastwatch-by-the-Sea]]. Since [[Last Hearth]] is the closest castle to the breach, Sansa tells Ned to return to Last Hearth to gather his bannermen and return to Winterfell. He requests more horses and wagons to speed up the process of getting his people to Winterfell, awkwardly addressing Jon and Daenerys as well, and leaves the Great Hall once his request is granted.<ref name="E68">"[[Winterfell (episode)|Winterfell]]"</ref>
+
+Later, at Last Hearth, Ned is found dead by a combined group of Free Folk, Night's Watch, and the [[Brotherhood Without Banners]] led by [[Tormund]], [[Beric Dondarrion]], and [[Eddison Tollett]]. He has been pinned to a wall in the castle's great hall, at the center of a spiral of severed limbs with a knife in his hand. Beric states that the spiral symbol is a message from the [[Night King]].
+
+[[File:Ned-Umber-Whit.png|thumb|left|Beric Dondarrion burns a reanimated Ned.]]
+Ned, who has been reanimated as a [[wight]], awakens to the sound of the three conversing and lets out an unholy scream that startles the men before lashing out at Tormund with his knife. Beric quickly finishes the wight with his flaming sword, immolating Ned and the spiral in the process and finally killing the undead boy.<ref name="E68" />
+
+== Appearances ==
+{{GoT/Season 7 appearances|yes|yes}}
+{{GoT/Season 8 appearances|yes}}
+
+== Family tree ==
+{{House Umber family tree}}
+
+==Quotes==
+{{Quote|We need more horses and wagons, if it please my lady. And my lord. And my queen. Sorry.|Ned has trouble addressing the leaders at Winterfell.|Winterfell (episode)}}
+
+== In the books ==
+In the ''[[A Song of Ice and Fire]]'' novels, there is no member of House Umber whose first name is Ned. There is also no mention whether Smalljon had any children, but it is known that the Greatjon had other sons and daughters in addition to Smalljon, so perhaps he has grandchildren.
+
+== References ==
+{{Reflist}}
+{{Umber navbox}}
+{{DEFAULTSORT:Umber, Ned}}
+
+[[es:Ned Umber]]
+[[de:Ned Umber]]
+[[fr:Ned Omble]]
+[[pl:Ned Umber]]
+[[ru:Нед Амбер]]
+[[Category:Nobility]]
+[[Category:Members of House Umber]]
+[[Category:Northmen]]
+[[Category:Lords of the Last Hearth]]
+[[Category:Deceased individuals]]
+[[Category:Wights]]
