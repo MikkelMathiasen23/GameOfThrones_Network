@@ -1,0 +1,62 @@
+{{Heraldry
+|image = Brotherhood-Shield.PNG
+|link = Brotherhood Without Banners}}
+{{Character
+| Title=Anguy
+| Image=AnguyTBATMF.PNG
+| Season=[[Game of Thrones Season 3|3]]
+| First="[[Dark Wings, Dark Words]]"
+| Last="[[The Bear and the Maiden Fair (episode)|The Bear and the Maiden Fair]]" 
+| Appearances=6 episodes <small>([[#Appearances|see below]])</small>
+| Titles=
+| Aka=The Archer
+| Status= [[:Category:Individuals of uncertain fate|Uncertain]]
+| Death=
+| Place=[[Dornish Marches]]
+| Allegiance=The [[Brotherhood Without Banners]]
+| Family=
+| Religion=[[R'hllor|R'hllor, the Lord of Light]] (convert)
+| Actor=[[Philip McGinley]]
+}}
+{{Quote|Here’s the thing, fat boy. When I'm done talking, that arrow's falling down on your fat head. So I advise you move, because I'm done talking.|Anguy to [[Hot Pie]]|Dark Wings, Dark Words}}
+'''Anguy''' is a skilled archer hailing from the [[Stormlands]] and a member of the [[Brotherhood Without Banners]].
+
+==Biography==
+===[[Game of Thrones Season 3|Season 3]]===
+Anguy is among the company of [[Thoros]] of [[Myr]] when they come across [[Arya Stark]], [[Gendry Baratheon|Gendry]] and [[Hot Pie]]. He coerces an unwilling Hot Pie into following them to a nearby [[Inn at the Crossroads|inn]] by making an impressive trick-shot. Later on, he presents a captured [[Sandor Clegane]] to his companions and is met with a roar of approval, and is present when Sandor reveals Arya's identity.<ref>"[[Dark Wings, Dark Words]]"</ref>
+[[File:Arya the climb.jpg|thumb|180x180px|Anguy teaches Arya archery.]]
+After bringing his captive before [[Beric Dondarrion]], he voices his disgust over the atrocities committed by the [[House Lannister|Lannister]] forces at the [[Mummer's Ford]].<ref>"[[And Now His Watch Is Ended]]"</ref>. Later he is present during the trial by combat which the Hound kills Lord Beric and is freed from his accusations.<ref>"[[Kissed by Fire]]"</ref>
+
+Anguy teaches Arya how to shoot a bow properly, when confronted by [[Melisandre]], who has come to claim [[Gendry Baratheon|Gendry]] for the [[Lord of Light]]. He does nothing to stop her, earning himself the wrath of Arya.<ref>"[[The Climb]]"</ref>
+
+When Arya runs away from the Brotherhood, Anguy is sent to bring her back. He is unsuccessful when she is captured by the Hound instead and taken away.<ref>"[[The Bear and the Maiden Fair (episode)|The Bear and the Maiden Fair]]"</ref>
+
+==Appearances==
+{{GoT/Season 3 appearances||yes|yes|yes|yes|yes|yes}}
+
+==Gallery==
+<gallery>
+Arya the climb.jpg|Anguy teaches Arya how to properly use a bow in "[[The Climb]]".
+</gallery>
+
+==In the books==
+In the ''[[A Song of Ice and Fire]]'' novels, Anguy is a superb archer from the [[Dornish Marches]], the mountainous southern region of the [[Stormlands]] which borders [[Dorne]]. He won the archery competition during the [[Tournament|Tourney of the Hand]] and was approached by Alyn, a guardsman on orders from [[Eddard Stark]] to offer him a place on the Stark household guard, but Anguy drunkenly declined. Anguy is part of the [[Iron Throne]] host assembled by [[Eddard Stark]] to execute Ser [[Gregor Clegane]] and becomes one of the founders of the [[Brotherhood Without Banners]] after the [[Battle at the Mummer's Ford]].
+
+Many characters who later formed the Brotherhood were introduced at the [[Tournament|Tourney of the Hand]] in the first novel. This tourney did occur in [[Game of Thrones Season 1|Season 1]] of the TV series, but the characters were not introduced, because they would not really make a significant appearance until Season 3 - they are given cameos in the first novel but only reappear as "the Brotherhood" in the third novel (though as in Season 2 of the TV series, in the second novel characters do mention that something called "the Brotherhood" is harassing Lannister supply lines).
+
+At the Tourney of the Hand, Anguy won the archery contest and [[Thoros]] of Myr won the melee contest. This is why they arrived in King's Landing, and were available when Ned Stark ordered [[Beric Dondarrion]] to lead out a group of able knights to bring Gregor Clegane to justice - the soldiers who formed the original core of the Brotherhood Without Banners. Thus the connection might be lost on the TV audience that one of the reasons the Brotherhood is such a disproportionately capable fighting force is because so many of its initial members were elite fighters who came to the capital city to participate in the Tourney of the Hand. For example it might a bit contrived in the TV series that, as if by pure chance, the Brotherood's lead archer Anguy just happens to be preternaturally skilled with a bow. The books actually do explain that he is a professional archer so skilled that he actively competes in tournaments, and indeed recently won first place at a ''royal-level'' archery tournament. Moreover, he doesn't just happen to be wandering in the Riverlands, but the rational reason was given that he was in the capital for a major tournament, before being sent out with Dondarrion.
+
+Following the Red Wedding, the Brotherhood finds [[Catelyn Stark|Catelyn]]'s body. Despite Thoros's objection, Beric passes her his flame of life; he dies, and Catelyn is reanimated as the monstrous Lady Stoneheart. Under the leadership of Lady Stoneheart, the Brotherhood falls low, and currently it is no longer different than any outlaw band; as a result, Anguy and many others abandon the Brotherhood. 
+
+==See also==
+* {{AWOIAF}}
+
+==References==
+{{Reflist}}
+[[de:Anguy]]
+[[ru:Энгай]]
+[[Category:Brotherhood Without Banners]]
+[[Category:Outlaws]]
+[[Category:Smallfolk]]
+[[Category:Stormlanders]]
+[[Category:Individuals of uncertain fate]]

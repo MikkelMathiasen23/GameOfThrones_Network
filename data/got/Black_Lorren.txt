@@ -1,0 +1,68 @@
+{{Character
+| Title =Black Lorren
+| Image= Lorren.png|thumb|250px
+| Season = [[Game of Thrones Season 2|2]]
+| First="[[The Ghost of Harrenhal]]"
+| Last="[[Valar Morghulis]]"
+| Appearances=4 episodes <small>([[#Appearances|see below]])</small>
+| Aka=
+| Status= [[:Category: Deceased individuals|Deceased]]
+| Age=
+| Birth= 
+| Death= [[Timeline#Season 2 - 299 AC|299 AC]]
+[[Flaying|Flayed]] alive by [[Ramsay Bolton|Ramsay Snow]]
+| DeathEp= 
+| Place= The [[Iron Islands]]
+| Culture= [[Ironborn]]
+| Allegiance = [[House Greyjoy]]
+| Family=
+| Actor = [[Forbes KB]]
+|Religion = [[Drowned God]]}}
+{{Quote|I have been reaving and raping since before you left Balon's balls, captain. Don't reckon I've got much use for your ideas on how to do it. Don't reckon I've got much use for a captain at all.|Lorren to [[Theon Greyjoy]]|The Ghost of Harrenhal}}
+'''Black Lorren''' was a veteran [[ironborn]] raider.
+
+==Biography==
+===Background===
+Lorren is a famous [[ironborn]] raider, noted for his experience and ferocity in battle. He is loyal to [[House Greyjoy]], the rulers of the [[Iron Islands]].
+
+===[[Game of Thrones Season 2|Season 2]]===
+When [[Theon Greyjoy]] tries to take command of his crew and his ship, the ''[[Sea Bitch]]'', Lorren mocks Theon by saying he doesn't need Theon to tell him how things are done, and that he could take on the job as the captain for himself.<ref>"[[The Ghost of Harrenhal]]"</ref>
+
+Lorren is among Theon's ironborn who [[Fall of Winterfell|seize Winterfell]]. He captures Ser [[Rodrik Cassel]] and brings him before Theon, who brutally executes the defiant Rodrik.<ref>"[[The Old Gods and the New]]"</ref>
+
+[[File:Theon beats Lorren.jpg|thumb|Theon takes out his anger on Lorren.]]
+When [[Bran Stark|Bran]] and [[Rickon Stark]] later escape with [[Osha]] and [[Hodor]], Theon initially blames Lorren, who counters that Theon let his guard down with Osha by having sex and sleeping with her the night before. Theon angrily beats up Lorren in front of the rest of the ironborn for his comments.<ref>"[[A Man Without Honor]]"</ref>
+
+Lorren is present for Theon's speech when [[Northmen]] lay siege of Winterfell. Aware of the terms offered to the invaders, he doesn't share the enthusiasm shared by the rest of his comrades. After Theon is knocked out by [[Dagmer]], he admits he couldn't wait for Theon to shut up.<ref>"[[Valar Morghulis]]"</ref>
+
+===[[Game of Thrones Season 3|Season 3]]===
+[[Balon Greyjoy]] receives a letter from [[Ramsay Bolton|Ramsay Snow]] demanding that he withdraw all Ironborn from the North, which also reveals that Lorren and the other ironborn at Winterfell were flayed alive by Ramsay and the [[House Bolton]] soldiers despite [[Robb Stark]]'s promise of mercy.<ref>"[[Mhysa]]"</ref>
+
+==Appearances==
+{{GoT/Season 2 appearances|||||yes|yes|yes|||yes}}
+
+==In the books==
+In the ''[[A Song of Ice and Fire]]'' novels, Black Lorren is regarded as one of the most dangerous and formidable ironborn raiders, second only to Andrik the Unsmiling. He's described as a squat, thick man with a long black beard. 
+
+Lorren is among the ironborn who raid the [[Stony Shore]] and destroy Benfred Tallhart's force. He also takes part in the capture of Winterfell.
+
+When Theon goes to search for the Stark boys, he gives Lorren command over Winterfell and its residents as [[castellan]].
+
+As Theon's position becomes hopeless, he tells the ironborn they can leave and join his sister's troops at Deepwood Motte or stay and fight with him against the Northmen who will arrive soon to retake Winterfell. Lorren is one of the seventeen ironborn (alongside [[Wex]] and [[Harrag#In the books|Harrag]]) who choose to stay with Theon.
+
+While Ser Rodrik is besieging Winterfell, Lorren urges Theon to kill all the hostages and fight to the bitter end, but Theon prefers instead to parley with the besiegers. Although Lorren does not actually defy Theon like in the show, he grows to despise him for his behavior, as it is considered weakness and cowardice in the eyes of ironborn.
+
+When Ramsay and his men turn on Theon, [[Sack of Winterfell|sack Winterfell]] and kill the ironborn, Lorren fights bravely; it takes four men to kill him. His body is found surrounded by several dead Dreadfort soldiers, indicating that he has taken some of his killers with him. 
+
+==See also==
+* {{AWOIAF}}
+
+==References==
+{{Reflist}}
+{{Greyjoy navbox}}
+[[de:Lorren]]
+[[ru:Лоррен]]
+[[fr:Lorren]]
+[[Category:Ironborn]]
+[[Category:Servants and retainers of House Greyjoy]]
+[[Category:Deceased individuals]]

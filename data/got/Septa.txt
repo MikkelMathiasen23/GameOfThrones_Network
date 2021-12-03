@@ -1,0 +1,37 @@
+[[File:Winter_is_Coming_Sansa.png|thumb|right|300px|Septa Mordane teaching needlework to the young ladies of Winterfell.]]
+{{Quote|[[Myranda|She]] trained as a septa, only she had other urges...|[[Violet]]|The Bear and the Maiden Fair (episode)}}
+'''Septas''' are the female clergy of the [[Faith of the Seven]]. They are women sworn to celibacy, sometimes serving noble houses as governesses and tutors to the daughters of lords, teaching them in matters of etiquette and history and activities such as sewing. In contrast, male clergy are known as [[septon]]s.
+
+Septas dress in humble clothing. This normally comprises a subdued shade with their hair concealed.
+
+==Known septas==
+
+* {[[Mordane]]}, a septa in service of [[House Stark]] who tutors [[Sansa Stark|Sansa]] and [[Arya Stark]]. Killed by [[House Lannister|Lannister]] men-at-arms during the purge of the Stark household.
+* [[Eglantine]], a septa in service of [[House Baratheon of King's Landing]] acting as tutor and governess to Princess [[Myrcella Baratheon]]. Accompanied her on her journey to [[Dorne]].
+* {[[Unella]]}, a member of the [[Most Devout]]. Imprisoned in the [[Black Cells]] by [[Cersei Lannister]].
+* Unnamed Septa in the [[Red Keep]], a spy for Lord [[Petyr Baelish]].<ref>"[[Cripples, Bastards, and Broken Things]]"</ref>
+* {[[Scolera]]}, a septa serving at the [[Great Sept of Baelor]].
+* {[[Moelle]]}, a septa serving at the Great Sept of Baelor.
+
+==Image Gallery==
+<gallery widths="170" columns="3" spacing="small">
+Septa Mordane.jpg|Septa [[Mordane]]
+Septa Eglantine.jpg|Septa [[Eglantine]]
+Unella.png|Septa [[Unella]]
+</gallery>
+==See also==
+*{{AWOIAF}}
+==References==
+{{Reflist|2}}
+{{FaithOfTheSeven}}
+
+[[de:Septa]]
+[[fr:Septa]]
+[[pl:Septy]]
+[[pt-br:Septã]]
+[[ru:Септа]]
+[[Category:Septas| ]]
+[[Category:Faith of the Seven]]
+[[Category:Titles]]
+[[Category:Religion]]
+[[Category:Clergy| ]]

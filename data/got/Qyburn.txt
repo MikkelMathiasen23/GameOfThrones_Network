@@ -1,0 +1,198 @@
+{{Character
+| Title=Qyburn
+| Image=804 Qyburn Profile.png
+| Season=[[Game of Thrones Season 3|3]], [[Game of Thrones Season 4|4]], [[Game of Thrones Season 5|5]], [[Game of Thrones Season 6|6]], [[Game of Thrones Season 7|7]], [[Game of Thrones Season 8|8]]
+| Appearances= 22 episodes <small>([[#Appearances|see below]])</small>
+|Mentioned="[[The Maester's Chain]]"<br>"[[Oldtown (Histories & Lore)|Oldtown]]"
+| Titles=[[Hand of the King|Hand of the Queen]] <small>(to [[Cersei Lannister|Cersei I]])</small><br>[[Master of Whisperers]] <small>(to [[Tommen Baratheon|Tommen I]] and [[Cersei Lannister|Cersei I]])</small>
+|First="[[Valar Dohaeris]]"
+|Last="[[The Bells]]"
+| Aka=
+| Status= [[:Category:Deceased individuals|Deceased]]
+| Death=[[Timeline#Season 8 - 305 AC|305 AC]] at [[King's Landing]]<br>Head smashed by [[Knighthood|Ser]] [[Gregor Clegane]] during the [[Battle of King's Landing]]
+| Place=
+| Allegiance=[[House Lannister]]<br>[[House Baratheon of King's Landing|House Baratheon of King's<br>Landing]] <small>(formerly, extinct)</small><br>[[House Bolton]] <small>(briefly)</small><br>[[Order of Maesters]] <small>(expelled)</small>
+| Predecessor = {[[Varys]]} <small>(as [[Master of Whisperers]])</small><br>{[[Kevan Lannister]]} <small>(as [[Hand of the King]])</small>
+| Family=
+| Actor=[[Anton Lesser]]|Successor = [[Tyrion Lannister]] <small>(as [[Hand of the King|Hand of the Queen]])</small>|DeathEp = "[[The Bells]]"}}
+{{Dialogue a-b|Jaime|You're no maester. Where's your chain?|Qyburn|The Citadel stripped me of it. They found some of my... experiments... too bold.|Jaime Lannister and Qyburn|Kissed by Fire}}
+'''Qyburn''' was an unethical former [[Order of Maesters|maester]] who was thrown out of the [[Citadel]] for conducting illegal human experimentation. After coming into [[Cersei Lannister]]'s service, he becomes [[Varys]]'s replacement as [[Master of Whisperers]] on the [[small council]]. Following the [[Destruction of the Great Sept of Baelor]], and the unprecedented death of [[King of the Andals, the Rhoynar, and the First Men|King]] [[Tommen Baratheon]], Qyburn becomes [[Hand of the King|Hand of the Queen]] upon Cersei's ascension. One of his chief "experiments", [[Knighthood|Ser]] [[Gregor Clegane]], backfired when Gregor turned on his master, killing him during the [[Battle of King's Landing]].
+
+==Biography==
+===Background===
+[[File:Qyburn expulsion.png|thumb|Qyburn is expelled from the Citadel.]]
+Qyburn is a former [[Order of Maesters|maester]] of the [[Citadel]]. He was stripped of his chain by the [[archmaester]]s for engaging in forbidden human experimentation: it was discovered that he had been vivisecting men in his pursuit of medical knowledge. Qyburn held to the belief that the death of a few men was justifiable if it would lead to medical breakthroughs that would save the lives of many more.
+
+While his unethical experiments have led to him being reviled by many, they also made him arguably one of the most talented healers in all of [[Westeros]].
+
+===[[Game of Thrones Season 3|Season 3]]===
+For unknown reasons, Qyburn ended up among the [[North|Northern]] and [[Riverlands|Riverlander]] prisoners at [[Harrenhal]] when [[Knight of Clegane's Keep|Ser]] [[Gregor Clegane]] abandons the castle and has all captives [[Liberation of Harrenhal|put to the sword]]. Qyburn, however, survives the injury at his throat and awakens when the castle is taken by the Northern army. After he wakes, he identifies himself to [[Robb Stark]] while [[Talisa Stark|Talisa]] tends to his wound.<ref>"[[Valar Dohaeris]]"</ref>
+
+After Robb leaves Harrenhal, Qyburn stays behind, serving under [[Lord of the Dreadfort|Lord]] [[Roose Bolton]]. He tends to [[Knighthood|Ser]] [[Jaime Lannister]]'s badly infected stump, the result of [[Locke]] chopping off his right hand. During this time, Jaime notices that Qyburn is not a [[Order of Maesters|maester]] because he isn't wearing a maester's chain of office. Qyburn acknowledges this, explaining that he was stripped of his chain by the [[Citadel]] and thrown out of the Order of Maesters for conducting experiments which they felt were too "bold". Qyburn initially intends to amputate part of Jaime's arm, but Jaime begs him not to, even threatening to kill him. Qyburn agrees to instead resort to removing the infected flesh, warning that the process will be painful and likely require [[milk of the poppy]], but Jaime, worrying that Qyburn may still amputate his arm, refuses. Qyburn straps Jaime's arm to the chair and starts the painful procedure.<ref>"[[Kissed by Fire]]"</ref>
+[[File:Jaime Harrenal Bear and Maiden Fair.jpg|thumb|Qyburn readies to leave Harrenhal with Jaime.]]
+Qyburn volunteers to join the party escorting Jaime back to [[King's Landing]]. Lord Bolton theorizes that the former maester is doing so in the hopes that [[Tywin Lannister]] will force the Citadel to restore his chain, though Jaime shoots it down by sarcastically quipping that Tywin will make Qyburn [[Grand Maester]] if he grows Jaime a new hand. After leaving Harrenhal, when Qyburn checks on Jaime's healing stump, Jaime notes that Qyburn's work is far superior to that of Grand Maester [[Pycelle]] and asks why the Citadel removed his chain.<ref name=":0">"[[The Bear and the Maiden Fair (episode)|The Bear and the Maiden Fair]]"</ref>
+
+Qyburn tells him that it was for performing experiments on living humans in order to learn more about their anatomy and justifies his actions by noting that he used the information he gleaned from them to save lives. Jaime briefly mocks Qyburn, who shoots back at Jaime for the countless lives he's taken, though Jaime notes that he [[Wildfire plot|saved]] the population of King's Landing from the [[Aerys II Targaryen|Mad King]]. When Jaime then asks Qyburn about [[Brienne of Tarth|Brienne]], he states that [[Selwyn Tarth|her father]] offered [[Locke]] a fair ransom of three hundred [[Currency|Gold Dragons]], which Locke refused to accept due to a previous lie of Jaime's that Brienne came from a wealthier family than she really did. Qyburn tells Jaime that she will most likely serve as entertainment for Locke and his men that night, and be killed thereafter. Qyburn then accompanies Jaime and [[Steelshanks]] back to Harrenhal when Jaime blackmails Steelshanks into helping him rescue Brienne.<ref name=":0">"[[The Bear and the Maiden Fair (episode)|The Bear and the Maiden Fair]]"</ref>
+
+Qyburn is still with Jaime and Brienne when they finally reach King's Landing. As they enter the city, Qyburn is visibly awestruck by its splendor.<ref>"[[Mhysa]]"</ref>
+
+===[[Game of Thrones Season 4|Season 4]]===
+[[File:Jaime-and-Qyburn-s3.jpg|thumb|Qyburn tends to Jaime's stump.]]
+[[Cersei Lannister|Cersei]] has a gilded prosthetic hand forged for Jaime, and Qyburn personally fits it on him. Cersei voices her gratitude to Qyburn, who then ingratiates himself with the [[King|queen]] by aiding her in other matters.<ref>"[[Two Swords]]"</ref>
+
+After Gregor Clegane is seriously wounded during his [[Second trial by combat of Tyrion Lannister|fight]] against [[Oberyn Martell]], Qyburn and Pycelle theorize that Oberyn had coated his spear in [[manticore]] [[Poison|venom]], causing Clegane's wounds to fester and leave him in agony. Pycelle tells Cersei that Clegane is likely doomed, but Qyburn states that he may be able to save him using more unorthodox means, even though Clegane once nearly killed him at Harrenhal. Pycelle snorts that Qyburn is not even a maester and reminds Cersei that he was expelled from the Citadel for conducting "dangerous" and "unnatural" experiments. 
+[[File:Gregor_and_qyburn.jpg|thumb|Qyburn begins working on Gregor.]]
+Cersei, remembering Qyburn's success with Jaime's stump, responds by dismissing Pycelle from his duties - and his laboratory. Cersei then gives Qyburn permission to do anything he can to save Clegane and to come to her should he need anything. Qyburn warns the queen that the process he intends to put Ser Gregor through may "change him", but when she is satisfied that it will not affect his strength, she instructs Qyburn to carry on.<ref>"[[The Children]]"</ref>
+
+===[[Game of Thrones Season 5|Season 5]]===
+Qyburn is at Cersei's side when she confirms that a [[Dwarf 1|head]] brought to her by two [[Dwarf hunter 1|bounty]] [[Dwarf hunter 2|hunters]] does not belong to her brother [[Tyrion Lannister|Tyrion]]. Qyburn asks for the head for use in his research. Later on, at a meeting of the [[small council]], Cersei appoints Qyburn as the new [[Master of Whisperers]] to replace [[Varys]]. [[Grand Maester]] [[Pycelle]] protests vehemently given Qyburn's outcast status, and [[Kevan Lannister]] denounces Qyburn as a sycophant and Cersei as a power-grabber.<ref name="E42">"[[The House of Black and White]]"</ref>
+[[File:Qyburn (S05E03).jpg|thumb|Qyburn writes to Littlefinger, at Cersei's request.]]
+Qyburn is present at a small council meeting when the [[High Septon (after the Riot of King's Landing)|High Septon]] demands the execution of the [[High Sparrow]] after [[Sparrows|his followers]] attack him. Qyburn informs the council that the High Septon had been at [[Littlefinger's brothel]]. Later, Qyburn kills a rat as part of an experiment when Cersei enters his laboratory, giving him a message that she wants sent to [[Petyr Baelish]]. She also asks him about the state of his work, while glancing at Gregor Clegane's covered body, and Qyburn assures her it is going very well, though there is still a way to go. Soon after Cersei leaves, as Qyburn writes, Gregor begins shaking under the blanket, but Qyburn shushes him calmly.<ref>"[[High Sparrow (episode)|High Sparrow]]"</ref>
+
+Qyburn is at the meeting of the small council when [[Mace Tyrell]] departs to negotiate the crown's debt with the [[Iron Bank of Braavos]].<ref>"[[Sons of the Harpy (episode)|Sons of the Harpy]]"</ref> Qyburn visits Cersei while she is held prisoner by the High Sparrow, informing her of the charges being brought against her - fornication, [[treason]], [[incest]], [[regicide]] - and that Grand Maester Pycelle has sent for Kevan Lannister to serve as [[Hand of the King]]. He also informs her that [[King of the Andals, the Rhoynar, and the First Men|King]] [[Tommen Baratheon|Tommen]] has become despondent following Cersei's arrest, and that he refuses to eat or see anyone. He suggests that she can simply confess to the charges and plead for mercy, subtly warning her that if there is a trial, the [[Faith of the Seven|Faith]] will not wait for physical evidence to reach a verdict, only what they simply believe to be true, but she initially refuses. Finally, just before leaving her, he informs her that "the work continues," referring to his experiments on Ser Gregor Clegane.<ref>"[[Hardhome (episode)|Hardhome]]"</ref>
+
+Eventually, Cersei confesses to her relationship with her cousin [[Lancel Lannister|Lancel]] to the [[High Sparrow]], who agrees to set her free on the condition that she perform a [[walk of atonement]]. After Cersei enters the [[Red Keep]] following her walk, Qyburn hastily rushes to her side and throws a cloak over her naked body. He then speaks to Cersei softly and reassuringly as he embraces her, attempting to soothe her. Pycelle looks upon the scene with disgust. Qyburn remarks upon her poor state and bleeding feet. Qyburn then introduces the "newest member of the [[Kingsguard]]," the 7-foot tall abomination he has been working on. At his behest, the golden knight picks her up and they walk away together, further into the Red Keep so Qyburn can clean her up and treat her wounds.<ref>"[[Mother's Mercy]]"</ref>
+
+===[[Game of Thrones Season 6|Season 6]]===
+[[File:Oathbreaker 01.jpg|thumb|180x180px|Qyburn tempts the Little Birds.]]
+In his laboratory, Qyburn continues to serve as Master of Whisperers by bribing a group of [[Varys]]'s little birds into his service with boxes of sweets. When Jaime and Cersei arrive accompanied by Gregor Clegane, the children are unnerved by the Mountain, though Qyburn promises them Clegane is a friend. As part of her revenge, Cersei asks Qyburn to bribe more of Varys's spies stationed in the other kingdoms, and he agrees to do so.<ref>"[[Oathbreaker]]"</ref>
+
+Qyburn enters Cersei's chamber to inform her that the [[Faith Militant]] have entered the Red Keep. Accompanied by Qyburn and the Mountain, Cersei confronts the group. Lancel says she must be taken to the High Sparrow, however Cersei disregards what her cousin is saying. Qyburn then watches as Gregor kills one of the sparrows.<ref name=":1">"[[No One]]"</ref>
+[[File:No One 12.jpg|thumb|Qyburn accompanies Cersei to Tommen's announcement. ]]
+Later, Cersei, Qyburn, and Ser Gregor enter the [[Great Hall]] to find a large crowd gathered for a royal announcement, King Tommen then announces that Cersei and [[Loras Tyrell]]'s trial will be held in the [[sept]] of Baelor on the first day of the [[Festival of the Mother]], and then declares that [[trial by combat]] is now forbidden. After the announcement Qyburn tells a shocked Cersei, who had been planning on calling a trial by combat with Gregor as her champion, that his little birds have been investigating an old rumor that she had told him about, and that the rumor was found to be much more than a rumor.<ref name=":1">"[[No One]]"</ref>
+The rumor turns out to be the [[wildfire plot]], in which King [[Aerys II Targaryen|Aerys II]] stored caches of wildfire across the city, including underneath the [[Great Sept of Baelor]]. Qyburn has his spies create leaks in the barrels containing the wildfire, then has them place candles in the middle of the resulting puddles, which slowly burn towards the wildfire.<ref name=":2">"[[The Winds of Winter]]"</ref>
+[[File:Qyburn_and_Pycelle.jpg|thumb|Qyburn aids Cersei in killing Maester Pycelle.]]
+The wildfire ignites and [[Destruction of the Great Sept of Baelor|destroys]] the Sept of Baelor, killing the [[High Sparrow]], [[Mace Tyrell]], Queen [[Margaery Tyrell|Margaery]], [[Loras Tyrell]], [[Kevan Lannister]], and many others. Qyburn also has [[Pycelle]] assassinated by his spies so as to consolidate Cersei's power. For his service and loyalty, Qyburn is made Cersei's Hand, and later crowns her as Queen of the [[Seven Kingdoms]].<ref name=":2">"[[The Winds of Winter]]"</ref>
+
+=== [[Game of Thrones Season 7|Season 7]] ===
+[[File:Cersei Qyburn Machine.jpg|thumb|Qyburn shows Cersei the scorpion.]]
+Qyburn is present when Cersei holds court with [[Euron Greyjoy]].<ref name="E61">"[[Dragonstone (episode)|Dragonstone]]"</ref> Qyburn also attends court with Cersei when she addresses the [[Lordship|lords]] of the [[Reach]], sworn to [[House Tyrell]], to convince them to betray Lady [[Olenna Tyrell|Olenna]] for Cersei. When [[Lord of Horn Hill|Lord]] [[Randyll Tarly]] asks about how Cersei is going to deal with [[Daenerys Targaryen]]'s [[dragon]]s, Qyburn tells the lords that he has been working on a solution. He later takes Cersei down beneath the [[Red Keep]] to show her his new modified [[scorpion]] to kill one of Daenerys's dragons, inviting her to test it on the skull of [[Balerion]], the dragon [[Aegon the Conqueror]] used to unite the Seven Kingdoms, and forge the Iron Throne.<ref name="E62">"[[Stormborn]]"</ref>
+[[File:Qyburn Cersei Euron Great Hall.png|thumb|Qyburn watches as Cersei announces their small victory against Daenerys.]]
+Qyburn and Ser Gregor are present in the dungeons when Cersei confronts [[Ellaria Sand]] and her daughter [[Tyene Sand]], who had murdered her daughter [[Myrcella Baratheon]]. Cersei tells Ellaria and Tyene that Qyburn managed to ascertain that they had [[poison]]ed her daughter with the ''[[long farewell]]''. Cersei kisses Tyene with the long farewell and Qyburn gives Cersei the antidote. Cersei confers with Qyburn, who assures her the poison will mean certain death for Tyene, but how long the poison will take to kill depends largely on the strength of the victim's constitution. Qyburn and the others then leave a distraught Ellaria to mourn with her dying daughter.<ref name="E63">"[[The Queen's Justice]]"</ref>
+
+Qyburn's scorpion is used in [[Battle of the Goldroad]], when [[Bronn]] fires it into [[Drogon]]'s shoulder. It succeeds at injuring Drogon enough to make him land. Angered, the dragon destroys the weapon with dragonfire shortly after.<ref name="E64">"[[The Spoils of War]]"</ref>
+
+Upon Jaime's return to King's Landing and his secret meeting with Tyrion, Qyburn reveals to Cersei that she is pregnant. She dismisses Qyburn after Jaime walks into the room, allowing Cersei to reveal the good news to her brother in private.<ref>"[[Eastwatch]]"</ref>
+
+[[File:707_Qyburn_Hand.png|thumb|Qyburn examines the wight's severed hand.]]
+Qyburn is present at the [[Dragonpit Summit|meeting]] at the [[dragonpit]], which he helped Cersei organize. He comes forward after [[Sandor Clegane]] begins cutting up the [[captured wight]] presented to Cersei, reaching for the [[wight]]'s severed arm, and examining it with genuine curiosity, although even he seems somewhat unnerved by it. Qyburn gives the hand to [[Jon Snow]], who then burns the wight's hand to reveal one of its weaknesses.<ref name="EP67">"[[The Dragon and the Wolf]]"</ref>
+
+=== [[Game of Thrones Season 8|Season 8]] ===
+Qyburn remains Cersei's Hand of the Queen. As she watches the [[Iron Fleet]] returning to King's Landing with the [[Golden Company]], Qyburn informs her that he has received word the [[Night King]]'s undead army has [[Breaching of the Wall|breached the Wall]] and invaded the North. Cersei's response is a dismissive "Good". Qyburn is also present during Cersei's audience with both [[Euron Greyjoy]] and the Golden Company's commander, [[Harry Strickland]].
+
+On Cersei's orders, Qyburn tracks down Ser Bronn of the Blackwater, finding him in the middle of a foursome with three [[Prostitution|prostitutes]] in a King's Landing brothel. After briefly unsettling Bronn by informing him [[Craya|one of his female companions]] will be dead of pox within the year, Qyburn explains that Cersei wishes to hire Bronn and is willing to grant him the castle, lordship, and highborn bride Jaime and Tyrion both promised him (asserting that the original deal involving his marriage to [[Lollys Stokeworth]] was scrapped by Jaime, not Cersei when Bronn protests), as well as offering an advance payment in the form of a wagon full of gold for his service. Bronn initially refuses, guessing that Cersei wants him as an assassin to kill [[Daenerys Targaryen|Daenerys]], but Qyburn instead tells him he is being hired to assassinate Jaime and Tyrion (despite Bronn's previous service to both) for their betrayal of Cersei in the event they survive the [[Great War|undead invasion of the North]]; Qyburn presents him with [[Joffrey's crossbow]] for the task, leaving him speechless, though he is clearly given pause when Qyburn reminds Bronn Cersei doesn't stint in rewarding loyal service, citing his own elevation to the position of Cersei's Hand as proof.<ref>"[[Winterfell (episode)|Winterfell]]"</ref>
+
+Qyburn informs Cersei that thousands of people have accepted the offer of refuge in the [[Red Keep]] against the invading Daenerys Targaryen. He later [[Parley|negotiates]] with Tyrion outside the gates of [[King's Landing]], unsuccessfully requesting the unconditional surrender of Daenerys's army.<ref>"[[The Last of the Starks]]"</ref>
+[[File:Clegane Battle S8 Ep5.jpg|thumb|Qyburn lies dead after being thrown by Gregor.]]
+When [[Drogon]] starts [[Battle of King's Landing|ravaging King's Landing]], Qyburn convinces Cersei to flee Red Keep as it is unsafe and are saved by Gregor from the falling debris while fleeing. They are confronted by [[Sandor Clegane|the Hound]] who slays all the surviving [[Kingsguard|Queensguard]] and wants to fight Gregor, who also wishes the same. Qyburn orders him to obey his Queen, when she demands that Gregor continues to protect her, but Gregor simply picks him up and smashes him into a crumbled wall, cracking his skull and spurting blood, before throwing him head-first into sharp debris that destroys the back of his head, killing Qyburn. He lay there dead while Cersei walked past him and the Cleganes commenced their battle.<ref>"[[The Bells]]"</ref>
+
+==Abilities==
+Although never confirmed, several [[Grand Maester]]s have alleged, including [[Pycelle]], that Qyburn is a dark magician who studies and practices black [[magic]]. Despite this, he is shown to have a great talent for healing, such as being able to clean the highly infected stump of Jaime Lannister without having to amputate his entire arm. Qyburn also has an exceptional knowledge of the human body, owing to his years of experimenting on living people at the Citadel.
+
+'''Necromancy'''
+
+It seems as though Qyburn possesses the magical ability to raise and manipulate those from the dead, defying the natural boundaries between life and death. It is heavily implied his successful reanimation of [[Gregor Clegane]] into a mindless zombie involved dark magic, and he also showed interest in the hand of the [[captured wight]], potentially showing his interest and talent in necromancy.
+
+==Personality==
+Externally, Qyburn appears to be an extremely harmless, polite and serene old man - he behaves calmly and patiently around everyone he meets, even if they do not have a good impression of him. Jaime viewed him as an "odd little man" and didn't entirely trust him, even when Qyburn operated on the wound left by his severed hand. Qyburn has proven himself to be, in his own right, highly intelligent to a fault, so much that he was the only one who knew a way to save Ser Gregor Clegane after he was savagely wounded by Oberyn Martell during their fateful duel in the trial by combat. When Qyburn expressed that he knew a way of saving Gregor, he did so without bragging, instead that it was a matter of fact, which Pycelle interpreted as arrogance and pride. Qyburn is, at the same time, extremely secretive, not truly revealing the methods he used to save the Mountain, instead expressing that the process would ''change'' Gregor, but not weaken him, and make him supremely obedient to Cersei. Qyburn doesn't seem to express any outward disdain towards Ser Gregor for almost killing him at Harrenhal, but then again Qyburn rarely expresses disdain for much of anything - Qyburn goes so far as to call Gregor his friend while the man is undergoing his experiments. It is therefore unknown whether Qyburn suggested he experiment on Ser Gregor out of revenge or if he simply did so in the interest of his constant pursuit of knowledge.
+
+In spite of Qyburn's soft and calm exterior, he is potentially a very dangerous man because of his secretive, ruthless and unethical methods. The Citadel once expelled Qyburn on the basis that the experiments that he enacted were unnatural and unacceptable, which Qyburn deemed foolish. Pycelle scorns Qyburn for this, naming him an embarrassment to the Citadel. Qyburn maintained his loyalty to Cersei and carried out any task she set for him, but it is unspecified if he had personal reasons or if he was simply loyal to Cersei. Qyburn was quick to end the interference of Pycelle in Cersei's plots by having him assassinated by his little birds. In spite of this, Qyburn expressed that he himself didn't have any personal grievances towards Pycelle and even told the old man that the necessity of murdering him pained Qyburn - this shows that Qyburn does not have sadistic or murderous intentions, but simply saw the act of killing the old Grand Maester as utterly necessary to consolidate Cersei's power. However, none of these factors prevented Qyburn from having a look of cold satisfaction on his face as he watched his little birds overwhelm Pycelle. This satisfaction was also shown when he witnessed Gregor Clegane ''ripping a man's head off'' during a showdown with the sparrows, showing that Qyburn is capable of taking satisfaction from his work and his actions.
+
+In terms of how efficient he is as Cersei's right hand man, Qyburn is actually impressive in that he hasn't changed loyalties at all since rising to this position; he has striven to serve Cersei's interests, good or bad, to the end, and notably is the first to comfort her in the aftermath of her walk of atonement. He has proven also that he is surprisingly resourceful in his own right: His scorpion is, however briefly, a good asset to Cersei's war against Daenerys Targaryen, managing to severely injure Drogon, who is ultimately able to destroy it. Qyburn's curious and clever nature is also shown when he is actually intrigued by the sight of the wight brought to the Dragonpit, calmly observing the severed hand of the creature.
+
+==Appearances==
+{{GoT/Season 3 appearances|yes||||yes||yes|||yes}}
+{{GoT/Season 4 appearances|1=yes|2=|3=|4=|5=|6=|7=|8=|9=|10=yes}}
+{{GoT/Season 5 appearances||yes|yes|yes||||yes||yes}}
+{{GoT/Season 6 appearances|||yes|||||yes||yes}}
+{{GoT/Season 7 appearances|yes|yes|yes|5 = yes|7 = yes}}
+{{GoT/Season 8 appearances|yes|||yes|yes}}
+
+==Gallery==
+<gallery>
+Qyburn 3x01.jpg|Qyburn in season 3.
+920x920.jpg|Qyburn in season 3
+Qyburn Bear and Maiden Fair.jpg|In [[The Bear and the Maiden Fair (episode)]]
+11-15-Qyburn.jpg|Qyburn in "Two Swords" (episode)
+872290.jpg|Qyburn tries to save Gregor Clegane ( "The Children" episode)
+57adc0e6-5cff-4529-8171-50c91b63727d.jpg|Qyburn comforting Cersei ("Mother's Mercy" episode)
+58adc0e6-5cff-4529-8171-50c91b63727d.jpeg|Qyburn wraps the cloak around Cersei
+medico (2).jpg|Qyburn in season 5
+s8-ep4-ephome-synopsis-hero-4179657-1920x1080.jpg|Qyburn and Tyrion in "The Last of the Starks" episode
+game-of-thrones-qyburn-hand-of-the-queen-kings-landing-anton-lesser.jpg|Qyburn in season 8
+11-16-Qyburn.jpg|Qyburn and his dark medicine ("The Children" episode)
+</gallery>
+
+==Quotes==
+<tabber>
+|-|Spoken by Qyburn=
+{{Quote|The only way to treat disease is to understand disease.|Qyburn|The Bear and the Maiden Fair (episode)}}
+{{Dialogue a-b-a|Pycelle|This man is not even a maester, let alone [[Grand Maester]].|Qyburn|That's for the best. No maester knows how to save [[Gregor Clegane|him]].|That is exactly the sort of arrogance that had him expelled from the [[Citadel]], [[Cersei Lannister|Your Grace]]. His curiosity was deemed dangerous and unnatural. Rightly so, in my opinion.|Grand Maester [[Pycelle]] and Qyburn.|The Children}}
+{{Dialogue a-b-a|Qyburn|You should know the process may change him...somewhat.|Cersei Lannister|Will it weaken him?|Oh no.|Qyburn on saving [[Gregor Clegane]].|The Children}}
+{{Quote|Belief is so often the death of reason.|Qyburn to [[Cersei Lannister]].|Hardhome (episode)}}
+{{Quote|This pains me, [[Pycelle|my lord]]. Whatever your faults you do not deserve to die alone in such a cold, dark place. But sometimes before we can usher in the [[Cersei Lannister|new]], the old must be put to rest.|Qyburn's final words to Pycelle.|The Winds of Winter}}
+{{Quote|When the [[Citadel]] expelled me, I thought I would die poor and alone, but in exchange for my service, Queen [[Cersei Lannister|Cersei]] made me her [[Hand of the King|Hand]]. What would she do for [[Bronn|the man]] who rids her of her treasonous brothers?|Qyburn to [[Bronn]].|Winterfell (episode)}}
+{{Quote|Obey your Queen, Ser Gregor!|Qyburn's last words.|The Bells}}
+
+|-|Spoken about Qyburn=
+{{Dialogue a-b|Roose Bolton|Qyburn hopes your [[Tywin Lannister|father]] will force the Citadel to restore his chain.|Jaime Lannister|I think my father will make him Grand Maester if he grows me a new hand.|[[Roose Bolton]] and Jaime Lannister about Qyburn.|The Bear and the Maiden Fair (episode)}}
+{{Dialogue a-b|Jaime Lannister|Odd little man.|Cersei Lannister|I've grown rather fond of him. He's quite talented, you know?|Jaime and Cersei.|Two Swords}}
+{{Quote|Qyburn here is the cleverest man I know. Clever enough to find out which poison you used to murder my daughter.|Cersei to [[Ellaria Sand]].|The Queen's Justice}}
+</tabber>
+
+==Behind the scenes==
+*Qyburn narrates the [[Histories & Lore]] videos "[[The Maester's Chain]]" on the [[Game of Thrones Season 4|Season 4]] Blu-ray, "[[Greyscale & The Stone Men]]" on the [[Game of Thrones Season 5|Season 5]] Blu-ray, "[[Oldtown]]" on the [[Game of Thrones Season 6|Season 6]] Blu-ray, and "[[The Dragonpit]]" on the [[Game of Thrones Season 7|Season 7]] Blu-ray.
+*Anton Lesser, who portrays Qyburn, originally auditioned to play Maester [[Luwin]].
+
+==In the books==
+In the ''[[A Song of Ice and Fire]]'' novels, Qyburn is a former [[Order of Maesters|maester]] who acts as a healer in the Brave Companions [[sellsword]] company. Qyburn never met Robb Stark, nor was he imprisoned while staying at Harrenhal, and he never met Gregor Clegane until after the latter's fight with Oberyn Martell. Qyburn is rumored to practice black sorcery and necromancy. Despite his horrific experiments, Qyburn has a very kindly, fatherly appearance - Cersei thinks he looks like some little girl's image of her favorite grandfather.
+
+Qyburn fell in with the Brave Companions at some point, who had been hired by the Lannisters and were based around Harrenhal. When Roose Bolton leads the eastern half of the Northern army to advance on Harrenhal they betrayed the Lannisters to side with Bolton, and remain at Harrenhal. This entire subplot was extensively condensed, so that Robb's ''entire'' army goes to the Westerlands, then to Harrenhal, instead of splitting into two groups (one commanded by Robb Stark, the other by Roose Bolton). The Brave Companions were also condensed from being a sellsword company to just a particularly vicious group of Bolton soldiers. Thus Qyburn simply appears in the TV series without further explanation as a refugee/prisoner that just happened to turn up at Harrenhal. In the novels, the Brave Companions are fond of cutting off the hands and feet of their prisoners so Qyburn has become quite skilled at treating such injuries.
+
+Qyburn treats Jaime's festering stump as in the TV series. The chapter is told from Jaime's POV, which explains that the main reason he refuses to take [[milk of the poppy]] is because he fears that if he allows Qyburn to render him unconscious for the surgery, he will break his word and amputate the rest of his right arm instead of just the gangrenous parts. Qyburn's treatment works quite well and he manages to save Jaime's right arm from the gangrene, and then travels to King's Landing with him.
+
+In the beginning of the fourth novel, Qyburn is introduced to Cersei. He tells her openly why he was expelled from the Citadel, and she is quite pleased to hear he has fewer moral restraints than Pycelle. She promises to finance his research and provide him with human subjects for his inhuman experiences, but warns him that he must be discreet - otherwise, he shall be granted a painful death. Later she gives Qyburn a title of lord, despite Pycelle's objections that a maester cannot hold a title - let alone a disgraced maester. Cersei points out that as Qyburn was stripped of his chain by the Citadel, he is not beholden to a maester's vows, and in any event, the title is nothing more than a courtesy, similar to the title of lord that [[Varys]] enjoyed.
+
+When treating Gregor Clegane, Qyburn theorizes that Oberyn had adulterated the manticore venom on his spear with sorcery; thickening it in order to slow its progress through the veins towards the heart, dragging out Gregor's agony.
+
+After Qyburn is made Master of Whisperers, he soon takes over Varys's network of spies. Cersei gives him control over the dungeons, allowing him use of the prisoners in his experiments. She starts disposing of enemies or unwanted persons (among them maids she thinks are spying on her for Margaery Tyrell, and people who just annoy her) by sending them off to Qyburn - other than a few screams emanating from his dungeon, they are never heard from again.
+
+With time, Cersei grows to trust Qyburn more, and he becomes her confidant: at one point, when Cersei muses that she cannot have [[Jon Snow]] killed, since he was elected the new [[Lord Commander of the Night's Watch]], Qyburn advises that she send assassins posing as recruits. She even reveals to him Maggy's prophecy, asking him if it can be forestalled. Qyburn answers positively and adds "I think Your Grace knows how".
+
+Qyburn proves to be much more cunning and devious than the other members of the Small Council, to Cersei's satisfaction. For instance, when she informs the council that Jon Snow assists Stannis, Pycelle, Orton Merryweather, Harys Swyft and Aurane Waters suggest to impose sanctions on the Night's Watch; Qyburn says "For years now, the Night’s Watch has begged for men. Lord Stannis has answered their plea. Can King Tommen do less? His Grace should send the Wall a hundred men. To take the black, ostensibly, but in truth...". Cersei immediately understands what Qyburn has in mind - to remove Jon from the command. She intends to send Osney Kettleblack with a hundred men to the Wall for that purpose, but as things turn to be, that scheme is not executed.
+
+When Cersei plots Margaery's downfall by framing her for a serial adulterer (which Cersei ironically is herself), she uses Qyburn to torture suspects into submission, driving them half mad. Cersei is present when Qyburn personally tortures one of those people (a singer who calls himself the Blue Bard), mercilessly cutting off one of his nipples with a razor. Eventually, the singer and the other prisoners tell the story Cersei wants them to tell. After Margaery is arrested, she gives some of these suspects to the [[High Sparrow]] to further build up the false case against Margaery, and the rest (what is left of them) are left for Qyburn's experiences.
+
+However, Cersei forgets an important fact: she is not the only one who can extract confessions by torture. One of her henchmen, Osney Kettleblack, is tortured at the High Sparrow's command, and the truth comes out including about the murder of the previous High Septon. After Cersei herself is imprisoned and the High Sparrow learns of her plot against Margaery, the suspects continue to admit their guilt, but the High Sparrow is not impressed, as he can see they are clearly half mad. However, the High Sparrow still means to try Margaery, though the case against her is weak, primarily because of the unreliability of the suspects.
+
+After Cersei is imprisoned, some of henchmen flee, and Kevan takes steps to remove the rest of her henchmen of their offices. He dismisses Qyburn from the Small Council, though he is allowed to continue his work with Varys’s whisperers. Qyburn visits Cersei and updates her with the latest news. Cersei is in despair to hear all her supporters either abandoned her or are stripped of power. Qyburn is the only one who remains loyal to her; he consoles her by revealing that her new champion stands ready, and there is no man in all the Seven Kingdoms who can hope to stand against him.
+
+Throughout his experiments, Qyburn manages to reanimate Gregor Clegane as Ser Robert Strong. Unlike in the show, no one except Cersei and Qyburn knows the truth about Ser Robert, although people find it strange that Gregor disappeared and that a new mysterious knight, who has similar size, appeared from nowhere.
+
+Qyburn is not involved in the murders of Pycelle and Kevan, both committed by Varys and his little birds.
+
+Qyburn is still alive by the point the novels reached.
+
+==See also==
+* {{AWOIAF}}
+
+==References==
+{{Reflist|2}}
+{{SmallCouncil navbox}}
+
+[[de:Qyburn]]
+[[es:Qyburn]]
+[[fr:Qyburn]]
+[[nl:Qyborn]]
+[[pl:Qyburn]]
+[[pt-br:Qyburn]]
+[[ru:Квиберн]]
+[[zh:科本]]
+[[Category:Hand of the King]]
+[[Category:Masters of Whisperers]]
+[[Category:Maesters]]
+[[Category:Servants and retainers of House Bolton]]
+[[Category:Servants and retainers of House Lannister]]
+[[Category:Westerosi]]
+[[Category:Deceased individuals]]
+[[Category:Small council]]

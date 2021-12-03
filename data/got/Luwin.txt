@@ -1,0 +1,106 @@
+{{Heraldry
+|image=Maesters-Shield.png
+|link=Order of Maesters
+}}
+{{Character
+|Title = Luwin
+|Image = Luwin.jpg
+|Season = [[Game of Thrones Season 1|1]], [[Game of Thrones Season 2|2]]
+|First = "[[Winter Is Coming]]"
+|Last = "[[Valar Morghulis]]"
+|Appearances = 14 episodes <small>([[#Appearances|see below]])</small>
+|Mentioned = "[[Lord Snow]]"<br>"[[Wargs and the Sight]]"<br>"[[The Spoils of War]]"
+|Status = [[:Category: Deceased individuals|Deceased]]
+|Death = [[Timeline#Season 2 - 299 AC|299 AC]] at [[Winterfell]]
+Stabbed in the abdomen with a spear by [[Dagmer]]; later euthanized by [[Osha]] at his own request
+|DeathEp = "[[Valar Morghulis]]"
+|Allegiance = [[Order of Maesters]]<br>The [[Lord of Winterfell|Lords of Winterfell]]
+|Successor = [[Wolkan]] <small>([[Order of Maesters|Maester]] at Winterfell)</small>
+|Actor = [[Donald Sumpter]]
+}}
+{{Quote|I pulled you into the world. Both of you. I've seen both your faces almost every day since, and for that I consider myself very, very lucky.|Maester Luwin to [[Bran Stark|Bran]] and [[Rickon Stark]]|Valar Morghulis}}
+'''Luwin''' was the [[Order of Maesters|maester]] of [[Winterfell]] and a loyal servant to [[House Stark]]. He acted as a surrogate parent to [[Bran Stark]] and [[Rickon Stark]] in the absence of their family.
+
+==Biography==
+===Background===
+Luwin is a [[Order of Maesters|maester]], a learned man of science and medicine, and serves [[House Stark]] of [[Winterfell]]. House Stark are [[Lords Paramount of the North]]. The [[North]] is one of the constituent regions of the [[Seven Kingdoms]] and House Stark is one of the [[Great House]]s of the realm. Luwin is very loyal to the Starks and they value his wise counsel and experience. He delivered all five of Lady [[Catelyn Stark|Catelyn]]'s children. He serves as a tutor to the male children.<ref>[http://viewers-guide.hbo.com/game-of-thrones/season2/#!/guide/houses/stark/maester-luwin/ HBO viewers guide, season 2 guide to houses, House Stark - Maester Luwin entry]</ref>
+
+===[[Game of Thrones Season 1|Season 1]]===
+[[File:Winter is Coming Cat luwin prepares.jpg|thumb|Catelyn organises the royal reception with Luwin.]]
+Luwin organizes the preparations for a royal visit with Catelyn Stark. Catelyn spots [[Bran Stark|Bran]] climbing Winterfell's walls and scolds her son in front of Luwin. Luwin stands behind the Starks as King [[Robert Baratheon|Robert]] arrives. The next night Luwin delivers a letter from [[Lysa Arryn]] to Catelyn and [[Eddard Stark|Eddard]]. He discusses its content with them and counsels that given Lysa's claims that the [[House Lannister|Lannisters]] killed [[Jon Arryn]] it is important that Eddard take up Robert's offer to make him [[Hand of the King]]. Bran is injured in what seems to have been a climbing accident.<ref>"[[Winter Is Coming]]"</ref>
+[[File:Catelyn, Bran Stark and Maester Luwin 1x02.jpg|thumb|Luwin cares for Bran during his prolonged unconsciousness.]]
+Luwin tends to Bran's injuries and predicts that he will survive. Eddard goes to [[King's Landing]] to serve as hand and takes many of his retainers with him. Luwin goes to Catelyn to discuss finances and appointing replacements. Catelyn is distraught over Bran's condition and refuses to participate. [[Robb Stark|Robb]] agrees to work with Luwin instead. An [[Catspaw assassin|assassin]] attempts to kill Bran but is foiled by Bran's [[direwolf]] [[Summer]]. Luwin meets with Catelyn, Robb, [[Theon Greyjoy|Theon]], and [[Rodrik Cassel]] in the Gods Wood of Winterfell to discuss the circumstances of Bran's injury. Catelyn reveals that she found a blond hair inside the tower where he was found.
+
+[[File:Bran and Luwin.jpg|thumb|Bran revises geography with Luwin.]]
+Luwin cautions restraint and Catelyn plans to go south personally to deliver the news to Eddard. Bran awakens after she leaves<ref>"[[The Kingsroad]]"</ref> but is paralyzed from the waist down.<ref>"[[Lord Snow]]"</ref> Luwin meets with [[Tyrion Lannister|Tyrion]] in the main hall of Winterfell alongside Robb. They offer a cool reception until Tyrion provides plans for a saddle that would allow Bran to ride.<ref>"[[Cripples, Bastards, and Broken Things]]"</ref> Luwin tutors Bran on the regions and families in the Seven Kingdoms and notes that amongst [[House Greyjoy]]'s noted skills is a tendency towards failed rebellions. Bran is upset at the continued absence of his parents and sullenly tries to provoke Luwin.<ref>"[[The Wolf and the Lion]]"</ref>
+
+[[File:Luwin-osha.png|thumb|Maester Luwin defends Osha from Theon.]]
+Luwin warns off Theon from [[Osha]], a [[wildling]] prisoner captured near the castle. He then questions Osha himself. She claims that the [[White Walkers]] are on the move. He dismisses this as a fable, but Osha tells him that the Walkers were not wiped out thousands of years ago, but have merely been asleep. She claims that they are not asleep any more.<ref>"[[You Win or You Die]]"</ref>
+
+Eddard is arrested for treason after the death of Robert. A letter from Sansa reaches Winterfell, pleading with a disbelieving Robb to bend the knee to [[Joffrey Baratheon|Joffrey]]. Maester Luwin correctly identifies the letter as the work of Queen [[Cersei Lannister|Cersei]]. Robb refuses to consider the request and sends out ravens, summoning Eddard's lords bannermen to assemble their armies at Winterfell.<ref>"[[The Pointy End]]"</ref> Robb marches south leaving Luwin to care for Bran. Eddard is executed for treason on King Joffrey's orders.<ref>"[[Baelor]]"</ref> Luwin tells Bran and Rickon the news of Eddard's [[Execution of Eddard Stark|death]].<ref>"[[Fire and Blood]]"</ref>
+
+===[[Game of Thrones Season 2|Season 2]]===
+As [[Order of Maesters|maester]] at [[Winterfell]], he becomes ever more of a father-figure to [[Bran Stark|Bran]] and [[Rickon Stark|Rickon]] with their father dead and their mother away. He provides council to Bran as he acts as [[Lord of Winterfell]].<ref>"[[The North Remembers]]"</ref> Bran questions Luwin about his strange dreams and Luwin reveals to him the [[valyrian steel]] link in his Maester chain, the sign that he studied the "higher mysteries" - [[magic]] - and asserts that if magic ever existed it has left their world long ago (unaware of [[Daenerys Targaryen]]'s [[dragon]]s in [[Red Waste|the east]]).<ref>"[[What Is Dead May Never Die]]"</ref>
+
+[[File:Luwin sends raven.jpg|thumb|Luwin warns allies that Winterfell has fallen to the ironborn.]]
+[[Theon Greyjoy]], who was last seen riding off with Robb, later returns to Winterfell with a crew of fellow [[ironborn]]. They lure the garrison of Winterfell away by feinting at [[Torrhen's Square]]<ref>"[[The Ghost of Harrenhal]]"</ref> and then seize the poorly defended castle.<ref name="E16">"[[The Old Gods and the New]]"</ref> Luwin is able to send word to King [[Robb Stark]] before being captured. Theon assembles Luwin and the rest of Winterfell's inhabitant in the courtyard where he has Bran publicly surrender the castle to him. He then turns to Luwin and orders him to send ravens to his [[Balon Greyjoy|father]] and [[Yara Greyjoy|sister]], informing them of his victory.
+
+Upon noticing Luwin's icy stare, Theon asks Luwin if he remembers his oath to serve the Lord of Winterfell, no matter their family name. Luwin grudgingly replies he does, and Theon reminds him that he is now the Lord of Winterfell and repeats his order. Luwin walks off to do as he is told but then Ser [[Rodrik Cassel]], Winterfell's [[castellan]] and [[master-at-arms]], is forcefully brought forward to Theon by [[Black Lorren]] and another ironborn. When Theon sentences Ser Rodrik to death after the latter openly spits in his face, Luwin tries to convince Theon not to make a hasty decision and that Ser Rodrik is worth more to him alive than dead. Theon briefly considers Luwin's advice but ultimately dismisses him, due to [[Dagmer]]'s influence, threatening to have him executed as well if he doesn't back down. Theon then proceeds to execute Ser Rodrik to the horror of Bran, Luwin, and the rest of Winterfell's inhabitants.
+
+[[File:Hunting.jpg|thumb|Theon takes Luwin on the hunt for Bran and Rickon.]]
+When [[Osha]] frees the boys and flees the castle, Theon has Luwin accompany him as he attempts to hunt the escapees down. Luwin begs him to spare them. They lose their scent at a nearby farm. Theon has Luwin sent home and then later returns to Winterfell with the burned corpses of two children, publicly claiming that they are Bran and Rickon. The citizens of Winterfell scream and sob at the sight, but Luwin's scream of anguish is the loudest and most painful to hear.<ref>"[[A Man Without Honor]]"</ref>
+
+A few days later, Luwin spots Osha sneaking into the catacombs. He realizes that the corpses must be [[Jack]] and [[Billy]], the two orphans whom Bran had assigned to assist a kindly [[Winterfell shepherd|shepherd]], and follows her to confirm his suspicion. She tells him they doubled back through a stream to mask their scent. Luwin urges her to keep the truth of Theon's actions from the boys, saying Bran specifically would blame himself. Unbeknownst to Luwin, however, Bran overhears everything.<ref>"[[The Prince of Winterfell]]"</ref>
+
+[[Winterfell]] is later surrounded by Northmen under the command of [[Ramsay Bolton|Ramsay Snow]], Lord Roose Bolton's bastard son, who infuriates Theon by blowing a horn all through the night. Despite acknowledging how kind his captors were to him, Theon tearfully vents his anguish over being constantly reminded by everyone, including Luwin, how lucky he was to be a prisoner of the Starks. Assuming a much more sympathetic tone, Luwin advises Theon to flee to the [[Wall]] and join the [[Night's Watch]] so that he might save his life and redeem himself, adding he knows Theon is not the ruthless man he is pretending to be. Theon owes to Luwin that he has done terrible things but refuses to deviate from the course he has set, saying that is too late and he has gone too far to ever pretend to be anyone else, and also fearing that Jon Snow will most likely kill him for his actions. He tries to rally his men for battle, not knowing they plan to hand him over to the Northmen in exchange for their own lives. When Theon concludes his speech to his fellow Ironborn, they immediately initiate their plan and knock him out. Despite Theon's betrayal, Luwin is visibly mortified when he sees what the Ironborn are doing and tries to intervene but ends up fatally stabbed by Dagmer, who then has Theon dragged away.<ref name="E20">"[[Valar Morghulis]]"</ref>
+
+[[File:Luwin Dying 2x10.png|thumb|Luwin expresses his pride in Bran and Rickon during his final moments.]]Despite his injury, Luwin escapes from Winterfell before she is sacked by Ramsay and makes his way to the [[godswood]], where he lies bleeding by the pool. Near death, he is found by Bran, Rickon, Osha and Hodor. He insists that the boys go north to the [[Wall]] as there are too many enemies in the south. He tells them that Jon will be able to keep them safe and tell their mother of their survival. Luwin affirms his pride at having served the Starks, particularly in raising their children. He sends them away and asks Osha to give him a quick death; having grown to greatly respect the Starks and their fellows, Osha does so.<ref name="E20"/>
+
+===[[Game of Thrones Season 7|Season 7]]===
+Following House Bolton's extinction after the [[Battle of the Bastards]], Maester [[Wolkan]] is appointed to serve as House Stark's new maester to replace Luwin. While discussing food rations for the North, Wolkan promises to refer to Luwin's old notes for information regarding the century's longest winter, as Luwin kept records of every raven scroll.<ref>"[[The Queen's Justice]]"</ref>
+
+When [[Arya Stark]] returns to Winterfell, she asks for Luwin and [[Rodrik Cassel]] to prove her identity to two disbelieving guards, but is informed that the maester at Winterfell is now Wolkan, meaning that Luwin cannot prove her identity.<ref>"[[The Spoils of War]]"</ref>
+
+==Appearances==
+{{GoT/Season 1 appearances|yes|yes||yes|yes||yes|yes||yes}}
+{{GoT/Season 2 appearances|yes||yes||yes|yes|yes|yes||yes}}
+
+==Gallery==
+<gallery>
+House Stark and retainers.jpg|Luwin stands behind the Stark family as they await the arrival of the king in "[[Winter Is Coming]]".
+Tyrion and Bran 1x04.png|Luwin and [[Robb Stark]] receive [[Tyrion Lannister]] at Winterfell in "[[Cripples, Bastards, and Broken Things]]".
+Bran surrenders Winterfell.jpg|Luwin and the rest of Winterfell gather when Bran surrenders Winterfell to Theon.
+</gallery>
+
+==Quotes==
+{{Quote|You must protect them. You're the only one who can.|Maester Luwin's last wish for [[Bran Stark|Bran]] and [[Rickon Stark]] to [[Osha]].|Valar Morghulis}}
+
+==Behind the scenes==
+*On the [[Game of Thrones Season 1|Season 1]] Blu-ray, Luwin narrates [[Complete Guide to Westeros]] videos on "[[The History of the Night's Watch]]", "[[The Order of the Maesters]]", "[[Mad King Aerys]]" and "[[The Sack of King's Landing]]".
+*Actor [[Anton Lesser]], who eventually was cast for the [[Game of Thrones Season 3|third season]] as [[Qyburn]], originally auditioned to play Luwin.<ref>Audio commentary from [[Bryan Cogman]] for "[[Walk of Punishment (episode)|Walk of Punishment]]"</ref>
+
+==In the books==
+In ''[[A Song of Ice and Fire]]'', Luwin's role as the maester to House Stark is unchanged. Luwin has forged several links of his maester's chain, showing areas where he has interest and expertise, such as herblore and astronomy. He is also one of the few maesters to have studied the so-called 'higher mysteries', meaning magic. This study is theoretical, and meant to demonstrate to those who show an interest in it that magic, if it ever existed in the first place, is dead and gone from the world. Luwin lives in the maester's tower in Winterfell.
+
+When Bran tells Maester Luwin about his dream that his father was in the crypts, it is Luwin who takes Bran down into the crypts to show him that Lord Eddard is not there rather than Osha. Shaggydog surprises and bites him. Bran and Rickon go back with him to his tower and are there when word comes that their father is dead. They are talking about the [[Children of the Forest]] when the wolves start to howl and the raven arrives with the letter.
+
+Luwin is fatally injured during the sack of Winterfell, but not by Dagmer (who is not in Winterfell but in [[Torrhen's Square]] at that point). Before Theon is knocked unconscious, he sees a Bolton knight on a warhorse planting a spear between Luwin's shoulders. The Stark boys find him near death on the edge of the black pool, beneath the shelter of the [[heart tree]].
+
+==See also==
+*{{AWOIAF}}
+
+==References==
+{{Reflist|2}}
+{{Stark navbox}}
+
+[[de:Luwin]]
+[[es:Luwin]]
+[[it:Luwin]]
+[[nl:Luwin]]
+[[pl:Luwin]]
+[[ru:Лювин]]
+[[zh:鲁温]]
+[[Category:Maesters]]
+[[Category:Servants and retainers of House Stark]]
+[[Category:Deceased individuals]]
+[[Category:Westerosi]]
