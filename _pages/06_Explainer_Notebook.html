@@ -1,14 +1,13 @@
 ---
+permalink: /Explainer_Network/
 keywords: fastai
-permalink: /Explainer_Notebook/
-description: "This section describes the in detail analysis done in this project."
-title: Exlpainer Notebook
+description: "This section will investigate communities in the network and further perform text and sentiment analysis."
+title: Explainer Notebook
 toc: false
 branch: master
 badges: true
 comments: true
 categories: [explainer notebook, in depth analysis]
-image: images/some_folder/your_image.png
 hide: true
 search_exclude: false
 metadata_key1: metadata_value1
@@ -157,7 +156,7 @@ layout: notebook
     <span class="c1"># Basic function to call the Wiki-pedia API</span>
     <span class="n">baseurl</span> <span class="o">=</span> <span class="s2">&quot;https://gameofthrones.fandom.com/api.php?&quot;</span>
     <span class="n">action</span> <span class="o">=</span> <span class="s2">&quot;action=query&quot;</span>
-    <span class="n">title</span> <span class="o">=</span> <span class="s2">&quot;titles=&quot;</span><span class="o">+</span><span class="n">t</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;é&#39;</span><span class="p">,</span> <span class="s1">&#39;e&#39;</span><span class="p">)</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="s2">&quot;titles=&quot;</span><span class="o">+</span><span class="n">t</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;�&#39;</span><span class="p">,</span> <span class="s1">&#39;e&#39;</span><span class="p">)</span>
     <span class="n">content</span> <span class="o">=</span> <span class="s2">&quot;prop=revisions&amp;rvprop=content&amp;rvslots=*&quot;</span>
     <span class="n">dataformat</span> <span class="o">=</span><span class="s2">&quot;format=json&quot;</span>
 
@@ -1035,6 +1034,13 @@ In order to extract links to thumbnail images for the network app seen on the we
 </div>
 </div>
 
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
 <div class="output_wrapper">
 <div class="output">
 
@@ -1072,6 +1078,13 @@ In order to extract links to thumbnail images for the network app seen on the we
     </div>
 </div>
 </div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
 
 <div class="output_wrapper">
 <div class="output">
@@ -1111,6 +1124,13 @@ In order to extract links to thumbnail images for the network app seen on the we
 </div>
 </div>
 
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
 <div class="output_wrapper">
 <div class="output">
 
@@ -1149,6 +1169,13 @@ In order to extract links to thumbnail images for the network app seen on the we
 </div>
 </div>
 
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
 <div class="output_wrapper">
 <div class="output">
 
@@ -1185,6 +1212,13 @@ In order to extract links to thumbnail images for the network app seen on the we
     </div>
 </div>
 </div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
 
 <div class="output_wrapper">
 <div class="output">
@@ -1926,3 +1960,6 @@ In order to extract links to thumbnail images for the network app seen on the we
 </div>
 </div>
 </div>
+
+ 
+
