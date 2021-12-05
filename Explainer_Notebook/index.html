@@ -8,13 +8,13 @@
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Explainer Notebook" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This section will investigate communities in the network and further perform text and sentiment analysis." />
-<meta property="og:description" content="This section will investigate communities in the network and further perform text and sentiment analysis." />
+<meta name="description" content="This section describes the in detail analysis done in this project." />
+<meta property="og:description" content="This section describes the in detail analysis done in this project." />
 <link rel="canonical" href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/Explainer_Notebook/" />
 <meta property="og:url" content="https://mikkelmathiasen23.github.io/GameOfThrones_Network/Explainer_Notebook/" />
 <meta property="og:site_name" content="Game Of Thrones - Winter is Coming" />
 <script type="application/ld+json">
-{"description":"This section will investigate communities in the network and further perform text and sentiment analysis.","url":"https://mikkelmathiasen23.github.io/GameOfThrones_Network/Explainer_Notebook/","headline":"Explainer Notebook","@type":"WebPage","@context":"https://schema.org"}</script>
+{"description":"This section describes the in detail analysis done in this project.","url":"https://mikkelmathiasen23.github.io/GameOfThrones_Network/Explainer_Notebook/","headline":"Explainer Notebook","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/GameOfThrones_Network/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/feed.xml" title="Game Of Thrones - Winter is Coming" /><link rel="shortcut icon" type="image/x-icon" href="/GameOfThrones_Network/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -69,13 +69,13 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Explainer Notebook</h1><p class="page-description">This section will investigate communities in the network and further perform text and sentiment analysis.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Explainer Notebook</h1><p class="page-description">This section describes the in detail analysis done in this project.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="" itemprop="datePublished">
         
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      49 min read
+      52 min read
     
 </span></p>
 
@@ -174,12 +174,22 @@ window.onload = wrap_img;
 <span class="kn">import</span> <span class="nn">requests</span>
 <span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
 
+<span class="kn">import</span> <span class="nn">re</span> 
+<span class="kn">import</span> <span class="nn">urllib</span>
+<span class="kn">from</span> <span class="nn">imdb</span> <span class="kn">import</span> <span class="n">IMDb</span>
 <span class="kn">import</span> <span class="nn">nltk</span>
 <span class="kn">from</span> <span class="nn">nltk.tokenize</span> <span class="kn">import</span> <span class="n">word_tokenize</span>
 <span class="kn">from</span> <span class="nn">nltk.stem</span> <span class="kn">import</span> <span class="n">WordNetLemmatizer</span>
 <span class="kn">from</span> <span class="nn">plotly.subplots</span> <span class="kn">import</span> <span class="n">make_subplots</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="kn">import</span> <span class="nn">os</span> 
+<span class="kn">import</span> <span class="nn">itertools</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">groupby</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">cycle</span>
+
 <span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">&#39;punkt&#39;</span><span class="p">)</span>
 <span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">&#39;wordnet&#39;</span><span class="p">)</span>
+<span class="n">base_path</span> <span class="o">=</span><span class="s2">&quot;../data/&quot;</span>
 </pre></div>
 
     </div>
@@ -304,14 +314,14 @@ window.onload = wrap_img;
 <span class="k">for</span> <span class="n">link</span> <span class="ow">in</span> <span class="n">links</span><span class="p">:</span>
     <span class="n">j</span> <span class="o">=</span> <span class="n">api_call</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">j</span><span class="p">[</span><span class="s1">&#39;batchcomplete&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;&#39;</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;error:&#39;</span><span class="p">,</span> <span class="n">char</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;error:&#39;</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="n">txt</span> <span class="o">=</span> <span class="n">get_vals</span><span class="p">(</span><span class="n">j</span><span class="p">,</span> <span class="s1">&#39;*&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
         <span class="k">if</span><span class="p">(</span><span class="s2">&quot;REDIRECT&quot;</span> <span class="ow">in</span> <span class="n">txt</span><span class="p">):</span>
             <span class="n">tmp</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">((</span><span class="s2">&quot;\[\[(.*)\]\]&quot;</span><span class="p">),</span><span class="n">txt</span><span class="p">)</span>
             <span class="n">j</span> <span class="o">=</span> <span class="n">api_call</span><span class="p">(</span><span class="n">tmp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="s2">&quot;_&quot;</span><span class="p">))</span>
             <span class="n">txt</span> <span class="o">=</span> <span class="n">get_vals</span><span class="p">(</span><span class="n">j</span><span class="p">,</span> <span class="s1">&#39;*&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/work/got/&#39;</span><span class="o">+</span><span class="n">link</span><span class="o">+</span><span class="s2">&quot;.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">text_file</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s1">&#39;got/&#39;</span><span class="o">+</span><span class="n">link</span><span class="o">+</span><span class="s2">&quot;.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">text_file</span><span class="p">:</span>
             <span class="n">text_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">txt</span><span class="p">)</span>
         <span class="n">text_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
@@ -385,11 +395,86 @@ In order to extract links to thumbnail images for the network app seen on the we
     
     
 <div class="cell border-box-sizing code_cell rendered">
+<details class="description" open>
+      <summary data-open="Hide Code" data-close="Show Code"></summary>
+        <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">tf_idf_func</span><span class="p">():</span> 
+    <span class="n">char_pages</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">characters</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.txt&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">&quot;/work/got_cleaned/&quot;</span><span class="p">)]</span>
+
+    <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">characters</span><span class="p">:</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">char</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">)</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/work/got_cleaned/&#39;</span><span class="o">+</span><span class="n">char</span><span class="o">+</span><span class="s2">&quot;.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">text_file</span><span class="p">:</span>
+                <span class="n">txt</span> <span class="o">=</span> <span class="n">text_file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+        <span class="n">char_pages</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">txt</span>
+    <span class="n">char_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">char</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.txt&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">characters</span><span class="p">]</span>
+    <span class="c1">#Create space for dict:</span>
+    <span class="n">tc_dict_char</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">l_dict_char</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="n">wnlet</span> <span class="o">=</span> <span class="n">WordNetLemmatizer</span><span class="p">()</span>
+
+    <span class="c1">#for com in top5_com:</span>
+    <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">char_list</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">words</span> <span class="o">=</span> <span class="n">char_pages</span><span class="p">[</span><span class="n">char</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)]</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">word_tokens</span> <span class="o">=</span> <span class="n">wordpunct_tokenize</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">words</span><span class="p">))</span>
+        
+        <span class="n">filtered_sentence</span> <span class="o">=</span> <span class="p">[</span><span class="n">w</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">word_tokens</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">w</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">stop_words</span><span class="p">]</span>
+
+        <span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">wnlet</span><span class="o">.</span><span class="n">lemmatize</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">filtered_sentence</span><span class="p">]</span> 
+        <span class="n">l_dict_char</span><span class="p">[</span><span class="n">char</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+        <span class="c1">#Compute TC for the community words:</span>
+        <span class="n">tc_dict_char</span><span class="p">[</span><span class="n">char</span><span class="p">]</span> <span class="o">=</span> <span class="n">FreqDist</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+
+    <span class="c1"># Find all unique words</span>
+    <span class="n">unique_words</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span><span class="o">*</span><span class="n">tc_dict_char</span><span class="o">.</span><span class="n">values</span><span class="p">())))</span>
+
+    <span class="c1"># Calculate idf</span>
+    <span class="n">idf</span> <span class="o">=</span> <span class="p">{</span><span class="n">word</span><span class="p">:</span> 
+                <span class="c1">#Find in how many documents that each word is present:</span>
+                <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tc_dict_char</span><span class="p">)</span> <span class="o">/</span> <span class="nb">sum</span><span class="p">([</span><span class="n">tf</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">tf</span> <span class="ow">in</span> <span class="n">tc_dict_char</span><span class="o">.</span><span class="n">items</span><span class="p">()]))</span> 
+                <span class="c1">#Iterate through unique words:</span>
+                <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">unique_words</span>
+        <span class="p">}</span>
+
+    <span class="c1">#Create dict for tf-idf values:</span>
+    <span class="n">tf_idf_char_page</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="c1">#Iterate through communities:</span>
+    <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">tc_dict_char</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="n">tf_idf</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="c1">#Iterate through each word in each community:</span>
+        <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">tf_value</span> <span class="ow">in</span> <span class="n">tc_dict_char</span><span class="p">[</span><span class="n">char</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="c1">#Extract IDF</span>
+            <span class="n">idf_value</span> <span class="o">=</span> <span class="n">idf</span><span class="p">[</span><span class="n">word</span><span class="p">]</span>
+            <span class="c1">#Compute TF-IDF</span>
+            <span class="n">tf_idf</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="n">idf_value</span><span class="o">*</span><span class="n">tf_value</span><span class="o">/</span><span class="n">l_dict_char</span><span class="p">[</span><span class="n">char</span><span class="p">]</span>
+        <span class="n">tf_idf_char_page</span><span class="p">[</span><span class="n">char</span><span class="p">]</span> <span class="o">=</span> <span class="n">tf_idf</span>    
+    <span class="k">return</span> <span class="n">tf_idf_char_page</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">&quot;/work/got/&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s2">&quot;got/&quot;</span><span class="p">)</span>
 <span class="n">char_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.txt&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">]</span> <span class="c1"># List of all characters </span>
 
 
@@ -398,7 +483,7 @@ In order to extract links to thumbnail images for the network app seen on the we
 <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span> <span class="c1"># Iterating through all the saved .txt files for characters</span>
 
     <span class="n">tf_idf_char</span> <span class="o">=</span> <span class="n">tf_idf_func</span><span class="p">()</span> <span class="c1"># For computation of most used words</span>
-    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/work/got/&quot;</span> <span class="o">+</span> <span class="n">file</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s2">&quot;got/&quot;</span> <span class="o">+</span> <span class="n">file</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="n">node_description</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span> <span class="c1"># read in current .txt file</span>
     <span class="n">name</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;.txt&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># name of current character</span>
 
@@ -432,7 +517,7 @@ In order to extract links to thumbnail images for the network app seen on the we
     
     <span class="c1">#Special cases</span>
     <span class="k">if</span> <span class="n">name</span> <span class="o">==</span> <span class="s1">&#39;Tommen_Baratheon&#39;</span><span class="p">:</span>
-        <span class="n">allegiance</span> <span class="o">=</span> <span class="s1">&#39;House Baratheon of King</span><span class="se">\&#39;</span><span class="s1">s Landing&#39;</span><span class="o">*</span>
+        <span class="n">allegiance</span> <span class="o">=</span> <span class="s1">&#39;House Baratheon of King</span><span class="se">\&#39;</span><span class="s1">s Landing&#39;</span>
 
     <span class="k">if</span> <span class="n">culture</span> <span class="o">==</span> <span class="s1">&#39;Andal&#39;</span><span class="p">:</span>
         <span class="n">culture</span> <span class="o">=</span> <span class="s1">&#39;Andals&#39;</span>
@@ -544,7 +629,7 @@ In order to extract links to thumbnail images for the network app seen on the we
     <span class="k">for</span> <span class="n">link</span> <span class="ow">in</span> <span class="n">links</span><span class="p">:</span>
         <span class="n">j</span> <span class="o">=</span> <span class="n">api_call</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">j</span><span class="p">[</span><span class="s1">&#39;batchcomplete&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;&#39;</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;error:&#39;</span><span class="p">,</span> <span class="n">char</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;error:&#39;</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">txt</span> <span class="o">=</span> <span class="n">get_vals</span><span class="p">(</span><span class="n">j</span><span class="p">,</span> <span class="s1">&#39;*&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
             <span class="k">if</span><span class="p">(</span><span class="s2">&quot;REDIRECT&quot;</span> <span class="ow">in</span> <span class="n">txt</span><span class="p">):</span>
@@ -578,7 +663,7 @@ In order to extract links to thumbnail images for the network app seen on the we
             <span class="k">else</span><span class="p">:</span> 
                 <span class="k">continue</span>
             <span class="n">txt</span> <span class="o">=</span> <span class="n">txt</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;==&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
-            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/work/got2/s&#39;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">+</span><span class="s1">&#39;/&#39;</span><span class="o">+</span><span class="n">link</span><span class="o">+</span><span class="s2">&quot;.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">text_file</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s1">&#39;got2/s&#39;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">+</span><span class="s1">&#39;/&#39;</span><span class="o">+</span><span class="n">link</span><span class="o">+</span><span class="s2">&quot;.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">text_file</span><span class="p">:</span>
                 <span class="n">text_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">txt</span><span class="p">)</span>
             <span class="n">text_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
@@ -605,7 +690,7 @@ In order to extract links to thumbnail images for the network app seen on the we
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">G_raw</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">read_gpickle</span><span class="p">(</span><span class="s2">&quot;/work/got_G.gpickle&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">G_raw</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">read_gpickle</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s2">&quot;got_G.gpickle&quot;</span><span class="p">)</span>
 
 <span class="c1"># Create attribute dict for seasonal networks from the overall network</span>
 <span class="n">attribute_dict</span> <span class="o">=</span> <span class="p">{}</span>
@@ -623,11 +708,86 @@ In order to extract links to thumbnail images for the network app seen on the we
     
     
 <div class="cell border-box-sizing code_cell rendered">
+<details class="description" open>
+      <summary data-open="Hide Code" data-close="Show Code"></summary>
+        <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">tf_idf_func</span><span class="p">(</span><span class="n">s</span><span class="p">):</span> 
+    <span class="n">char_pages</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">characters</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.txt&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">&quot;/work/got2/s&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">+</span> <span class="s1">&#39;_cleaned/&#39;</span><span class="p">)]</span>
+
+    <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">characters</span><span class="p">:</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">char</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">)</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/work/got2/s&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;_cleaned/&#39;</span><span class="o">+</span><span class="n">char</span><span class="o">+</span><span class="s2">&quot;.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">text_file</span><span class="p">:</span>
+                <span class="n">txt</span> <span class="o">=</span> <span class="n">text_file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+        <span class="n">char_pages</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">clean_text</span><span class="p">(</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">txt</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">(),</span> <span class="n">char_list_all</span><span class="p">)</span>
+    <span class="n">char_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">char</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.txt&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">characters</span><span class="p">]</span>
+    <span class="c1">#Create space for dict:</span>
+    <span class="n">tc_dict_char</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">l_dict_char</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="n">wnlet</span> <span class="o">=</span> <span class="n">WordNetLemmatizer</span><span class="p">()</span>
+
+    <span class="c1">#for com in top5_com:</span>
+    <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">char_list</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">words</span> <span class="o">=</span> <span class="n">char_pages</span><span class="p">[</span><span class="n">char</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)]</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="c1"># word_tokens = wordpunct_tokenize(&quot; &quot;.join(words))</span>
+        
+        <span class="c1"># filtered_sentence = [w for w in word_tokens if not w.lower() in stop_words]</span>
+
+        <span class="c1"># words = [wnlet.lemmatize(w) for w in filtered_sentence] </span>
+        <span class="n">l_dict_char</span><span class="p">[</span><span class="n">char</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+        <span class="c1">#Compute TC for the community words:</span>
+        <span class="n">tc_dict_char</span><span class="p">[</span><span class="n">char</span><span class="p">]</span> <span class="o">=</span> <span class="n">FreqDist</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+
+    <span class="c1"># Find all unique words</span>
+    <span class="n">unique_words</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span><span class="o">*</span><span class="n">tc_dict_char</span><span class="o">.</span><span class="n">values</span><span class="p">())))</span>
+
+    <span class="c1"># Calculate idf</span>
+    <span class="n">idf</span> <span class="o">=</span> <span class="p">{</span><span class="n">word</span><span class="p">:</span> 
+                <span class="c1">#Find in how many documents that each word is present:</span>
+                <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tc_dict_char</span><span class="p">)</span> <span class="o">/</span> <span class="nb">sum</span><span class="p">([</span><span class="n">tf</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">tf</span> <span class="ow">in</span> <span class="n">tc_dict_char</span><span class="o">.</span><span class="n">items</span><span class="p">()]))</span> 
+                <span class="c1">#Iterate through unique words:</span>
+                <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">unique_words</span>
+        <span class="p">}</span>
+
+    <span class="c1">#Create dict for tf-idf values:</span>
+    <span class="n">tf_idf_char_page</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="c1">#Iterate through communities:</span>
+    <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">tc_dict_char</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="n">tf_idf</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="c1">#Iterate through each word in each community:</span>
+        <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">tf_value</span> <span class="ow">in</span> <span class="n">tc_dict_char</span><span class="p">[</span><span class="n">char</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="c1">#Extract IDF</span>
+            <span class="n">idf_value</span> <span class="o">=</span> <span class="n">idf</span><span class="p">[</span><span class="n">word</span><span class="p">]</span>
+            <span class="c1">#Compute TF-IDF</span>
+            <span class="n">tf_idf</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="n">idf_value</span><span class="o">*</span><span class="n">tf_value</span><span class="o">/</span><span class="n">l_dict_char</span><span class="p">[</span><span class="n">char</span><span class="p">]</span>
+        <span class="n">tf_idf_char_page</span><span class="p">[</span><span class="n">char</span><span class="p">]</span> <span class="o">=</span> <span class="n">tf_idf</span>    
+    <span class="k">return</span> <span class="n">tf_idf_char_page</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">char_list_all</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.txt&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">&quot;/work/got_cleaned/&quot;</span><span class="p">)]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">char_list_all</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.txt&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s2">&quot;got_cleaned/&quot;</span><span class="p">)]</span>
 
 <span class="n">char_names_cap</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># List of all characters</span>
 <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">char_list_all</span><span class="p">:</span>
@@ -635,11 +795,11 @@ In order to extract links to thumbnail images for the network app seen on the we
 
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">9</span><span class="p">):</span>
     <span class="n">tf_idf_season</span> <span class="o">=</span> <span class="n">tf_idf_func</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="c1"># Computation of most used words</span>
-    <span class="n">files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">&quot;/work/got2/s&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span><span class="s2">&quot;/&quot;</span><span class="p">)</span> <span class="c1"># List of all character files for a given season</span>
+    <span class="n">files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s2">&quot;got2/s&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span><span class="s2">&quot;/&quot;</span><span class="p">)</span> <span class="c1"># List of all character files for a given season</span>
     <span class="n">char_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.txt&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">]</span> <span class="c1">#List of all characters</span>
     <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span> <span class="c1"># Create Directed Graph Object</span>
     <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span> <span class="c1">#Iterate through character files for a given season</span>
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/work/got2/s&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">+</span><span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">file</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s2">&quot;got2/s&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">+</span><span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">file</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
             <span class="n">node_description</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
         <span class="n">name_char</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;.txt&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
 
@@ -689,7 +849,7 @@ In order to extract links to thumbnail images for the network app seen on the we
                 <span class="n">final_links</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">name_char</span><span class="p">,</span><span class="n">link</span><span class="p">,</span><span class="n">counts</span><span class="p">[</span><span class="n">j</span><span class="p">]))</span>    
         <span class="n">G</span><span class="o">.</span><span class="n">add_weighted_edges_from</span><span class="p">(</span><span class="n">final_links</span><span class="p">)</span>
     <span class="c1"># Save .gpickle file containing the network.</span>
-    <span class="n">nx</span><span class="o">.</span><span class="n">write_gpickle</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s2">&quot;/work/got_G_s&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;.gpickle&quot;</span><span class="p">)</span>
+    <span class="n">nx</span><span class="o">.</span><span class="n">write_gpickle</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">base_path</span><span class="o">+</span><span class="s2">&quot;got_G_s&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;.gpickle&quot;</span><span class="p">)</span>
         
 </pre></div>
 
@@ -808,7 +968,7 @@ In order to extract links to thumbnail images for the network app seen on the we
         <span class="n">imdb_reviews</span><span class="p">[</span><span class="n">season</span><span class="p">][</span><span class="n">episode</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;reviews&quot;</span> <span class="p">:</span> <span class="n">reviews</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="s1">&#39;reviews&#39;</span><span class="p">],</span>
                                         <span class="s2">&quot;ratings&quot;</span> <span class="p">:</span> <span class="n">votes</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">]}</span>
 
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;imdb_reviews.json&#39;</span><span class="p">,</span><span class="s1">&#39;w+&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s1">&#39;imdb_reviews.json&#39;</span><span class="p">,</span><span class="s1">&#39;w+&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
     <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">imdb_reviews</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">indent</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span>
 </pre></div>
 
@@ -842,7 +1002,7 @@ In order to extract links to thumbnail images for the network app seen on the we
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">read_gpickle</span><span class="p">(</span><span class="s2">&quot;/work/got_G.gpickle&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">read_gpickle</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s2">&quot;got_G.gpickle&quot;</span><span class="p">)</span>
 
 <span class="c1">#Make space in a property dict for the values:</span>
 <span class="n">property_dict</span> <span class="o">=</span> <span class="p">{</span>
@@ -1707,7 +1867,7 @@ if (outputEl) {{
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/work/imdb_reviews.json&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">base_path</span><span class="o">+</span><span class="s2">&quot;imdb_reviews.json&quot;</span><span class="p">)</span>
 <span class="n">ratings</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 
 <span class="n">episode_rating</span> <span class="o">=</span> <span class="p">{}</span>
@@ -2170,7 +2330,7 @@ if (outputEl) {{
 <li>Community analysis</li>
 </ul>
 <p>Each part is going to be introduced below, as well as the subconclusion of each part. Further, a link to a notebook doing the full analysis of each of the parts will be provided. This is done to make this notebook more convenient, and as the size otherwise would be to big to render on Github, and on most computers be extremely slow to read through.</p>
-<h2 align = "center"> 3.1 Network analysis </h2><p>The Notebook going through the full analysis can be found <a href="https://github.com/MikkelMathiasen23/GameOfThrones_Network/tree/master/notebooks_final/08_01_network_analysis.ipynb">here</a>.</p>
+<h2 align = "center"> 3.1 Network analysis </h2><p>The Notebook going through the full analysis can be found <a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/Explainer_Network/">here</a>.</p>
 <p>This part analyse the character interactions, do people tend to group in eg. allegiances? Or do they interact with people from other allegiances? Which character are main character in each season and across the whole series?</p>
 <p>This is questions that this part of the analysis are going to dive into. The methods used for this part of the analysis are mainly network science tools such as degree distributions, centrality measures, assortivity and lastly, good old exploratory analysis and visualizations in general.</p>
 <p>The main outputs from this analysis are two inteactive visualizations/apps that the end user can play around with. The first app are based on directed graphs, where the links between the characters (nodes) are extracted from the links between the character pages on the Game Of Thrones wiki-page. The network app can be visualized both pr. season and across each season, further it can be overlayed with different colormaps based on selected attribute.</p>
@@ -2183,7 +2343,7 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 align = "center"> 3.2 Text analysis </h2><p>The Notebook doing the full text analysis can be found <a href="https://github.com/MikkelMathiasen23/GameOfThrones_Network/tree/master/notebooks_final/08_02_text_analysis.ipynb">here</a>.</p>
+<h2 align = "center"> 3.2 Text analysis </h2><p>The Notebook doing the full text analysis can be found <a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/Explainer_Text/">here</a>.</p>
 <p align="center">
   <img src="https://blog.grabon.in/wp-content/uploads/2019/05/Got-Quote-Tyrion-Lannister.jpeg" />
 </p><p>Do the theme of the Game Of Thrones change as the seasons goes by? Do characters and allegiances have specific words they use? Is it maybe possible to determine the mood of the characters throughout the series? This is some of the questions we try to answer and understand in this part of the analysis.</p>
@@ -2204,7 +2364,7 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 align = "center"> 3.3 Community analysis </h2><p>The Notebook doing the full community analysis can be found <a href="(https://github.com/MikkelMathiasen23/GameOfThrones_Network/tree/master/notebooks_final/08_03_community_analysis.ipynb">here</a>).</p>
+<h2 align = "center"> 3.3 Community analysis </h2><p>The Notebook doing the full community analysis can be found <a href="https://mikkelmathiasen23.github.io/GameOfThrones_Network/Explainer_Community/">here</a>.</p>
 <p>What is the underlying pattern that connects the characters? This is the main question of this section. From the network analysis (in the previous part) it appeared that the underlying pattern connection the different characters was not primarily based on the selected attributes for each character. This section contains four parts which will dive into how the characters are connected. The sections are as follows:</p>
 <ul>
 <li>Community detection and exploratory analysis</li>
