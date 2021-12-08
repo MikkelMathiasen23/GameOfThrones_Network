@@ -195,7 +195,7 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 align = "center"> 1. Basic stats of graph </h1><hr>
+<h1 align = "center"> 1. Basic stats of network </h1><hr>
 <p>Having loaded the network we will start out by investigating some basic stats of the network. If you want to look into the basic statistics behind the data you can look at section 2.2.1 <em>Basic Statistics</em> in the Explainer Notebook.</p>
 <p>Lets start out by determining the size of the network with respect to number of nodes and edges ie. characters and links. Each node represents a character and has some assigned attributes namely: allegiance, religion, culture, status (dead, alive, uncertain) and number of appearances. Each link between two nodes are determined by the linking between the wiki-pages and if these links are directed. Further, each link has a frequency describing the number of occurences this specific link has.</p>
 
@@ -903,7 +903,7 @@ if (outputEl) {{
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 align = "center"> 2. Visualization of the graph  </h1><hr>
+<h1 align = "center"> 2. Visualization of the network  </h1><hr>
 <p>This section is devoted to explain how we created our interactive visualization of the network. The app can be found by following this <a href="https://gameofthronesnetworknx.herokuapp.com/">link</a>. The code used to generate the network is found in two separate python files. The file for processing the Game Of Thrones <code>gpickle</code> file and creating links and edges can be found <a href="https://github.com/MikkelMathiasen23/GameOfThrones_Network/blob/master/network_app/data_methods.py">here</a>, whereas the python file for the interactive visualization are found <a href="https://github.com/MikkelMathiasen23/GameOfThrones_Network/blob/master/network_app/network_app.py">here</a>.</p>
 <p>The visualization contains a network which is created using <code>plotly</code>. Here the <code>alphas</code> and <code>node</code> sizes are scaled according their respective degree, whereas the <code>edge</code> width are scaled according to its frequency. This is done to indicate which nodes are well-connected and has a lot of connections, and further to make the visualizations more easy to understand, as the network is very dense, and can get confusing with all the links.</p>
 <p>The positions of the nodes are computed using <code>ForceAtlas2</code> algorithm, where the specific settings can be found in the <code>compute_positions</code> function. Further, these positions are saved to speed up the app, as it otherwise needed to recompute these every time, and this also make the figure more reproducible.</p>
@@ -1737,6 +1737,7 @@ Correlation with out degree: 0.391
 </div>
 </div>
 </div>
+ 
  
 
 
